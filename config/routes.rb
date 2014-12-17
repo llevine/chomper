@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
   root 'application#index'
-  resources :users
-  resources :games
-  resources :achievements
+  
+  get 'sessions/new' => 'sessions#new', as: 'login'
+  post 'sessions'    => 'sessions#create'
+  delete 'sessions'  => 'sessions#destroy'
+
+  get 'application/index' => 'application#index', as: 'brain_chomper'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

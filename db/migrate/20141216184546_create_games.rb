@@ -6,7 +6,6 @@ class CreateGames < ActiveRecord::Migration
     	t.string :answer
     	t.integer :score
     	t.string :chomper
-    	t.references :user
 
     	t.timestamps
     end
