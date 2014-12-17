@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  root 'sessions#new'
+  root 'application#index'
+  resources :users
+  resources :games
+  resources :achievements
 
 
   # The priority is based upon order of creation: first created -> highest priority.
