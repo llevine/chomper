@@ -1,0 +1,51 @@
+<!-- this form will be used to add a new user and to edit an existing user -->
+<%= form_for @user do |f| %>
+  <div class="input">
+    <%= f.label :username %>
+    <%= f.text_field :username %>
+  </div>
+
+  <div class="input">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+ </div>
+  
+  <div class="input">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+ </div>
+
+<% if edit %>
+  <div class="input">
+    <%= f.label :avatar %>
+    <%= f.text_field :avatar %>
+ </div>
+<% else %>
+  <div class="input">
+    <%= f.label :avatar %>
+    <%= f.text_field :avatar, :value => 'http://www.placecage.com/200/200' %>
+ </div> 
+<% end %>
+
+
+  
+<% if new_user %>
+  <div class="input">
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+ </div>
+  
+  <div class="input">
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation %>
+  </div>
+<% end %>
+
+<% if delete %>
+  <div class="input" id="delete">
+    <%= link_to "Delete User", user_path(@user), method: :delete %>
+  </div>
+<% end %>
+
+  <%= f.submit "Submit", :id=>"submit" %>
+<% end %>

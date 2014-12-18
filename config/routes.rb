@@ -1,12 +1,11 @@
 Rails.application.routes.draw do
-  root 'application#index'
+  root 'sessions#new'
   
   get 'sessions/new' => 'sessions#new', as: 'login'
   post 'sessions'    => 'sessions#create'
   delete 'sessions'  => 'sessions#destroy'
 
-  get 'application/index' => 'application#index', as: 'brain_chomper'
-
+  resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

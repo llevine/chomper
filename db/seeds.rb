@@ -1,7 +1,33 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+User.destroy_all
+Game.destroy_all
+Achievement.destroy_all
+
+User.create({
+	username: "llevine",
+	first_name: "Lauren",
+	last_name: "Levine",
+	birthday: "1/8/1986",
+	password: "lauren",
+	password_confirmation: "lauren",
+	avatar: "https://placeholdr-app.herokuapp.com/boards/15/200/200"
+	})
+
+User.create({
+	username: "nshah",
+	first_name: "Nidhi",
+	last_name: "Shah",
+	birthday: "1/8/1986",
+	password: "nidhi",
+	password_confirmation: "nidhi",
+	avatar: "https://placeholdr-app.herokuapp.com/boards/15/200/200"
+	})
+
+User.create({
+	username: "mhuang",
+	first_name: "Margaret",
+	last_name: "Huang",
+	birthday: "1/8/1986",
+	password: "margaret",
+	password_confirmation: "margaret",
+	avatar: "https://placeholdr-app.herokuapp.com/boards/15/200/200"
+	})
