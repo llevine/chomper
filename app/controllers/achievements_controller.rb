@@ -1,8 +1,6 @@
 class AchievementsController < ApplicationController
 	def index
-	end
-
-	def show
+		@achievements = Achievement.all
 	end
 
 	private

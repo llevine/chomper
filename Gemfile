@@ -40,6 +40,8 @@ gem 'bcrypt', '~> 3.1.7'
 # birthday gem
 gem 'birthday', '~> 0.3.0'
 
+
+gem 'httparty'
 # Use unicorn as the app server
 # gem 'unicorn'
 

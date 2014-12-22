@@ -1,12 +1,11 @@
 class GamesController < ApplicationController
 
 	def index
+		@trivia = TriviaWrapper.getInventionTrivia()
 	end
 
 	def create
-	end
 
-	def update
 	end
 
 	def destroy
