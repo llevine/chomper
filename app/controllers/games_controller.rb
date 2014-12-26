@@ -2,6 +2,7 @@ class GamesController < ApplicationController
 
 	def index
 		@trivia = TriviaWrapper.getInventionTrivia()
+		# render json: @trivia
 	end
 
 	def create
