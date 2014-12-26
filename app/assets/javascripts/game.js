@@ -1,15 +1,17 @@
-// gameOver = false;
+gameOver = false;
 
-// var game = {
-// 	makeBoard: function() {
-// 		this.board = new Board();
-// 	},
-// 	start: function() {
-// 		this.makeBoard();
-// 		this.board.startGame();
-// 	},
-// 	play: function(position) {
-// 		this.board.makePlay(position);
-// 		var playableCells = this.board.boardView.map(function(cell) { return cell.playable(); });
-// 	}
-// };
+var game = {
+	setupGame: function() {
+		this.makeBoard = new Board();
+	},
+	start: function() {
+		this.setupGame();
+		// populates board with answers
+		this.board.createBoard();
+		this.board.getTriviaQuestion();
+		this.board.render();
+	},
+	play: function(position) {
+	
+	}
+};

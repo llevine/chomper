@@ -1,5 +1,5 @@
 function Board(){
-	this.board = [];
+	this.wholeBoard = [];
 	this.allTrivia = [];
 	this.allSolved = [];
 }
@@ -11,13 +11,13 @@ Board.prototype.createBoard = function(){
 		// creates a new cell object and sets value of that object to a random trivia answer
 		var createCell = new Cell;
 		createCell.setState(i);
-		this.board.push(createCell);
+		this.wholeBoard.push(createCell);
 
 		// adds a question an answer object to an array
 		qAndA = {question: triviaConnector[i]['question'], answer: triviaConnector[i]['answer']};		
 		this.allTrivia.push(qAndA);
 	}
-	// console.log(this.board);
+	// console.log(this.wholeBoard);
 }
 
 Board.prototype.getTriviaQuestion = function(){
@@ -62,7 +62,7 @@ Board.prototype.render = function(){
 	// |5|6|7|8|9| //
 	// |10|11|12|13|14| //
 
-	this.board.forEach(function(cell, index, board) {
+	this.wholeBoard.forEach(function(cell, index, board) {
 		singleRow.push("|" + cell.render() + "|");
 			if (index === 4 || index === 9 || index === 14){
 				wholeBoard.push(singleRow);
