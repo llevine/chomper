@@ -15,3 +15,15 @@
 //= require turbolinks
 //= require_tree .
 
+
+$(function() {
+  console.log("Loaded, bro.");
+  $('button').on('click', newGame);
+  var blink = function() {$('.blink').animate({opacity: '1'}, 1000, function(){$(this).animate({opacity: '0'}, blink);});}
+  blink();
+});
+
+var newGame = function() {
+	$('.blink').remove();
+	$.get("games/new");
+}

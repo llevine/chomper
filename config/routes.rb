@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'sessions#new'
+  root 'games#index'
   
   get 'sessions/new' => 'sessions#new', as: 'login'
   post 'sessions'    => 'sessions#create'
@@ -7,7 +7,9 @@ Rails.application.routes.draw do
 
   resources :users
 
-  resources :games, except: [:edit, :update, :new]
+  get 'games/create_invention' => 'games#create_invention'
+  resources :games, except: [:edit, :update]
+
 
   get 'achievements/index' => 'achievements#index'
 

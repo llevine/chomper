@@ -1,12 +1,17 @@
 class GamesController < ApplicationController
 
 	def index
-		@trivia = TriviaWrapper.getInventionTrivia()
-		# render json: @trivia
 	end
 
-	def create
+	def new
+		render :new
+	end
 
+	def create_invention
+		@game = Game.create(category: "Invention")
+		@game.user = current_user
+		@trivia = TriviaWrapper.getInventionTrivia()
+		render :play
 	end
 
 	def destroy

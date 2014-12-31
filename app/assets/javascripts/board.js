@@ -2,6 +2,7 @@ function Board(){
 	this.wholeBoard = [];
 	this.allTrivia = [];
 	this.allSolved = [];
+	this.currentQuestion = {};
 }
 
 Board.prototype.createBoard = function(){
@@ -26,7 +27,7 @@ Board.prototype.getTriviaQuestion = function(){
 		// returns a random number
 		var index = Math.floor(Math.random() * (this.allTrivia.length));
 		// returns a random trivia question at the random index number chosen above
-		var triviaquestion = this.allTrivia[index];
+		this.currentQuestion = this.allTrivia[index];
 		// removes the trivia question from the array and saves it to the variable removed
 		var removed = this.allTrivia.splice(index, 1);
 		// adds the removed question to a solved array
@@ -36,13 +37,13 @@ Board.prototype.getTriviaQuestion = function(){
 		// maybe move the above if statement to the game page as a game over scenerio checker...
 		console.log('game over');
 	}
-	console.log(triviaquestion['question']);
-	console.log(this.allSolved);
-	console.log(this.allTrivia);
+	$("#question").html(this.currentQuestion['question']);
 }
 
 Board.prototype.makePlay = function(chosenCell){
-
+	if (this.currentQuestion['answer'] === chosenCell){
+		alert("answer is correct");
+	}
 }
 
 Board.prototype.checkWin = function(){
@@ -55,19 +56,7 @@ Board.prototype.checkWin = function(){
 }
 
 Board.prototype.render = function(){
-	var singleRow = [];
-	var wholeBoard = [];
-
-	// |0|1|2|3|4| //
-	// |5|6|7|8|9| //
-	// |10|11|12|13|14| //
-
-	this.wholeBoard.forEach(function(cell, index, board) {
-		singleRow.push("|" + cell.render() + "|");
-			if (index === 4 || index === 9 || index === 14){
-				wholeBoard.push(singleRow);
-				singleRow = [];
-		 	}
-	});
-	return wholeBoard.join('\n');
+	for (var i = 0; i < this.allTrivia.length; i++) {
+		$("#" + i).html(this.allTrivia[i].answer);
+	}
 }

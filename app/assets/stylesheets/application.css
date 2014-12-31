@@ -14,16 +14,76 @@
  *= require_self
  */
 
+
+/*-----------------------------------------FONT IMPORTS--------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Hanalei+Fill|Underdog|Bowlby+One+SC|VT323|Share+Tech+Mono|Press+Start+2P);
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
 /*-----------------GLOBAL STYLING--------------------*/
+
+body {
+    background: black;
+    cursor: default;
+}
+
+h1 {
+    /*PROBABLY NOTS*/
+    /*font-family: 'Press Start 2P', cursive;*/
+
+    /*MAYBE*/
+    /*font-family: 'Hanalei Fill', cursive;*/
+    /*font-family: 'Underdog', cursive;*/
+    font-family: 'Bowlby One SC', cursive;
+    /*font-family: 'VT323', cursive;*/
+    /*font-family: 'Share Tech Mono', cursive;*/
+    color: #82ff05;
+    letter-spacing: 3px;
+    font-size: 75px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+button {
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: black;
+    border: 3px solid #82ff05;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    color: #82ff05;
+    text-align: center;
+    cursor: pointer; cursor: hand;
+}
+
+/*////////////////////////////////////////////////////////////*/
+
+/*-----------------EVENT HANDLERS ------------------*/
+
+/*button {
+    transition: color 700ms ease;
+}
+
+button.blink{
+    color: transparent;
+}*/
+
+button:focus {
+    outline:0;
+}
 
 /*shows what fields have errors in a form, if the form page doesn't save and is rerendered*/
 .field_with_errors input {
     border: 2px solid red;
 }
 
-/*////////////////////////////////////////////////////////////*/
-
 /*-----------------FORM STYLING GOES HERE--------------------*/
+
 
 
 .form {
@@ -112,3 +172,26 @@
 }
 
 /*////////////////////////////////////////////////////////////*/
+
+
+.row {
+  width: 880px;
+  height: 176px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.cell {
+  width: 160px;
+  height: 160px;
+  margin: 5px;
+  border-radius: 5px;
+  background: #ebe6e1;
+  border: 3px solid #e0d9d2;
+  float: left;
+
+  text-align: center;
+  line-height: 160px;
+  color: #6c6c6c;
+  font-size: 20px;
+}
