@@ -3,6 +3,7 @@ function Board(){
 	this.allTrivia = [];
 	this.allSolved = [];
 	this.currentQuestion = {};
+	this.totalScore = 000;
 }
 
 Board.prototype.createBoard = function(){
@@ -15,7 +16,9 @@ Board.prototype.createBoard = function(){
 		this.wholeBoard.push(createCell);
 
 		// adds a question an answer object to an array
-		qAndA = {question: triviaConnector[i]['question'], answer: triviaConnector[i]['answer']};		
+		var t = triviaConnector[i];
+		var v = (t.value == null) ? 100 : t.value;
+		qAndA = {question: t.question, answer: t.answer, value: v};		
 		this.allTrivia.push(qAndA);
 	}
 	// console.log(this.wholeBoard);
@@ -41,9 +44,16 @@ Board.prototype.getTriviaQuestion = function(){
 }
 
 Board.prototype.makePlay = function(chosenCell){
-	if (this.currentQuestion['answer'] === chosenCell){
-		alert("answer is correct");
+	if (this.currentQuestion.answer === chosenCell){
+		this.totalScore += this.currentQuestion.value;
+		this.getTriviaQuestion();
+		alert(this.totalScore);
 	}
+	else {
+		this.totalScore -= this.currentQuestion.value/2;
+
+	}
+	$("#totalScore").html(this.totalScore);
 }
 
 Board.prototype.checkWin = function(){
@@ -57,6 +67,6 @@ Board.prototype.checkWin = function(){
 
 Board.prototype.render = function(){
 	for (var i = 0; i < this.allTrivia.length; i++) {
-		$("#" + i).html(this.allTrivia[i].answer);
+		$("#" + i).html(this.allTrivia[i].answer + "<br>" + this.allTrivia[i].value);
 	}
 }

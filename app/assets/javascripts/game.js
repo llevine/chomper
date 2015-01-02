@@ -13,8 +13,9 @@ var game = {
 	},
 	play: function(e) {
 		var elem = $(this);
-		alert("BOARD:" + e.data.current_game.board);
-				alert(elem.html());
-		e.data.current_game.board.makePlay(elem.html());
+		// alert("BOARD:" + e.data.current_game.board);
+		// alert(elem.html());
+
+		e.data.current_game.board.makePlay(elem.html().split("<br>")[0]);
 	}
 };

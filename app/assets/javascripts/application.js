@@ -25,5 +25,14 @@ $(function() {
 
 var newGame = function() {
 	$('.blink').remove();
-	$.get("games/new");
+	$.get("games/new").done(displayGamesList);
+}
+
+// function fetchPosts() {
+//   $.get('/posts').done(displayPosts);
+// }
+
+function displayGamesList(data) {
+  var postContainer = $('#posts-container');
+  data ? data.forEach(renderPost) : alert('No more results!');
 }

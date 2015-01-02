@@ -1,6 +1,7 @@
 function Cell(){
 	this.active = true;
 	this.value = "";
+	this.score = 0;
 }
 
 Cell.prototype.setState = function(index){

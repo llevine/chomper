@@ -24181,3 +24181,2299 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-31 14:16:16
 
 
 Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2014-12-31 14:16:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 00:28:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 505ms (Views: 471.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 00:28:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:18 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:18 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:19 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 00:28:19 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 00:28:23 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 00:28:35 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 00:28:37 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 00:28:51 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 00:28:55 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 89ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 00:29:13 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:14 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 00:29:14 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 00:29:14 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:14 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:15 -0500
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 00:29:37 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 117ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 00:29:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:38 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:38 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 00:29:38 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:39 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:39 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 00:29:46 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (450.2ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 05:29:49.208929"], ["updated_at", "2015-01-01 05:29:49.208929"]]
+  [1m[35m (3698.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (389.2ms)[0m  
+			insert into games_users values
+			  (3, 49)
+		
+  Rendered games/play.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 9295ms (Views: 448.8ms | ActiveRecord: 4547.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 00:29:56 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:56 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 00:29:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:56 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:57 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 00:29:57 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 00:34:34 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 01:15:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 453ms (Views: 425.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:15:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:15:08 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:15:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:15:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:15:08 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:15:08 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:15:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:15:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:15:08 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 01:15:12 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 253ms (Views: 236.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:19:00 -0500
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 01:20:20 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:20:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:21 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:21 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:21 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:21 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:20:21 -0500
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 01:20:22 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:20:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:22 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:23 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:23 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:20:23 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:20:23 -0500
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 01:24:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 178ms (Views: 164.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:01 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:02 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:02 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:02 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:02 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 01:24:04 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:05 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:05 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:05 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:05 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:05 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 93ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 01:24:32 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 70ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:32 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:32 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:32 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:32 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:33 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 112ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:24:34 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:27:25 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 01:27:44 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 149ms (Views: 147.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:27:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:45 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:45 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:45 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:27:45 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:27:45 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 01:27:48 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 01:47:52 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 777ms (Views: 770.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 187ms (Views: 186.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:48:40 -0500
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 96ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:48:44 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:48:48 -0500
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 01:48:53 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:48:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:54 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:54 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:54 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:48:54 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:48:54 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 01:48:56 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:49:05 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 01:49:07 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 01:49:10 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 01:51:01 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 02:05:13 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 297ms (Views: 295.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 02:05:13 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 02:05:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 02:05:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 02:05:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 02:05:14 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 02:05:14 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 02:05:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 02:05:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 02:05:14 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 02:05:16 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 71ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 02:21:23 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 146ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 02:21:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 02:21:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:24 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:24 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:24 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:24 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 02:21:25 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 83ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 02:21:27 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 16:34:05 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (4.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 672ms (Views: 632.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:07 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:07 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:07 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:34:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:07 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:34:07 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:07 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 98ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:34:50 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:35:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-01 16:37:49 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:37:50 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:50 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:50 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:50 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:37:50 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+Processing by GamesController#new as */*
+  Rendered games/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 96ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:37:54 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:38:00 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (41.5ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 21:38:00.366247"], ["updated_at", "2015-01-01 21:38:00.366247"]]
+  [1m[35m (599.3ms)[0m  COMMIT
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.6ms)[0m  
+			insert into games_users values
+			  (3, 50)
+		
+  Rendered games/play.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 2683ms (Views: 94.7ms | ActiveRecord: 665.3ms)
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:39:03 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 21:39:03.382556"], ["updated_at", "2015-01-01 21:39:03.382556"]]
+  [1m[36m (3.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (1.4ms)[0m  [1m
+			insert into games_users values
+			  (3, 51)
+		[0m
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1477ms (Views: 122.2ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:39:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:04 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:04 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:04 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:04 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:39:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:04 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:39:16 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 21:39:16.449527"], ["updated_at", "2015-01-01 21:39:16.449527"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (36.0ms)[0m  
+			insert into games_users values
+			  (3, 52)
+		
+  Rendered games/play.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 989ms (Views: 76.4ms | ActiveRecord: 39.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:17 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:39:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:17 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:17 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:17 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:39:17 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:39:45 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 21:39:45.426494"], ["updated_at", "2015-01-01 21:39:45.426494"]]
+  [1m[36m (3.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (34.9ms)[0m  [1m
+			insert into games_users values
+			  (3, 53)
+		[0m
+  Rendered games/play.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1234ms (Views: 129.4ms | ActiveRecord: 39.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:39:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:46 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:46 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:46 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:39:46 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:39:46 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:40:17 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 21:40:17.555771"], ["updated_at", "2015-01-01 21:40:17.555771"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (38.7ms)[0m  
+			insert into games_users values
+			  (3, 54)
+		
+  Rendered games/play.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1181ms (Views: 123.2ms | ActiveRecord: 40.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:40:18 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:18 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:18 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:18 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:40:18 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 21:40:22.046353"], ["updated_at", "2015-01-01 21:40:22.046353"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (1.2ms)[0m  [1m
+			insert into games_users values
+			  (3, 55)
+		[0m
+  Rendered games/play.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 582ms (Views: 76.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:40:22 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:47:57 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 21:47:57.179952"], ["updated_at", "2015-01-01 21:47:57.179952"]]
+  [1m[35m (29.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.5ms)[0m  
+			insert into games_users values
+			  (3, 56)
+		
+  Rendered games/play.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1310ms (Views: 667.1ms | ActiveRecord: 31.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:47:58 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:47:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:47:58 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:47:58 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:47:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:47:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:47:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:47:58 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:47:58 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:56:26 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 21:56:26.292160"], ["updated_at", "2015-01-01 21:56:26.292160"]]
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (1.4ms)[0m  [1m
+			insert into games_users values
+			  (3, 57)
+		[0m
+  Rendered games/play.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1110ms (Views: 453.5ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:56:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:56:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:56:27 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:56:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:56:27 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:56:27 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:56:27 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:56:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:56:27 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:57:40 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 21:57:40.061011"], ["updated_at", "2015-01-01 21:57:40.061011"]]
+  [1m[35m (23.7ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.1ms)[0m  
+			insert into games_users values
+			  (3, 58)
+		
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1514ms (Views: 269.0ms | ActiveRecord: 25.5ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:57:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:57:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:57:41 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:57:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:57:41 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:57:41 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:57:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:57:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:57:41 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 16:58:32 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 21:58:32.977883"], ["updated_at", "2015-01-01 21:58:32.977883"]]
+  [1m[36m (25.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (1.5ms)[0m  [1m
+			insert into games_users values
+			  (3, 59)
+		[0m
+  Rendered games/play.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1473ms (Views: 403.6ms | ActiveRecord: 27.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 16:58:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 16:58:34 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 16:58:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 16:58:34 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 16:58:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 16:58:34 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 16:58:34 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 16:58:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 16:58:34 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:02:48 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 22:02:48.876306"], ["updated_at", "2015-01-01 22:02:48.876306"]]
+  [1m[35m (23.8ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.3ms)[0m  
+			insert into games_users values
+			  (3, 60)
+		
+  Rendered games/play.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1096ms (Views: 404.8ms | ActiveRecord: 25.9ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:50 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:50 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:50 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:02:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:02:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:50 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:50 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:02:58 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 22:02:58.879553"], ["updated_at", "2015-01-01 22:02:58.879553"]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (1.2ms)[0m  [1m
+			insert into games_users values
+			  (3, 61)
+		[0m
+  Rendered games/play.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 432ms (Views: 72.4ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:59 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:02:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:59 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:02:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:59 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:59 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:02:59 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:03:18 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 22:03:18.527748"], ["updated_at", "2015-01-01 22:03:18.527748"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.1ms)[0m  
+			insert into games_users values
+			  (3, 62)
+		
+  Rendered games/play.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1819ms (Views: 69.2ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:03:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:20 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:20 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:20 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:20 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:03:20 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:03:32 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 22:03:32.526627"], ["updated_at", "2015-01-01 22:03:32.526627"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (75.7ms)[0m  [1m
+			insert into games_users values
+			  (3, 63)
+		[0m
+  Rendered games/play.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1638ms (Views: 89.5ms | ActiveRecord: 77.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:03:34 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:34 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:34 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:03:34 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:03:34 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:05:34 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 22:05:34.145481"], ["updated_at", "2015-01-01 22:05:34.145481"]]
+  [1m[35m (15.8ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.3ms)[0m  
+			insert into games_users values
+			  (3, 64)
+		
+  Rendered games/play.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1381ms (Views: 410.9ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:05:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:05:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:05:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:05:35 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:05:35 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:05:35 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:05:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:05:35 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:05:35 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:07:24 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 22:07:24.363486"], ["updated_at", "2015-01-01 22:07:24.363486"]]
+  [1m[36m (48.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (18.5ms)[0m  [1m
+			insert into games_users values
+			  (3, 65)
+		[0m
+  Rendered games/play.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1708ms (Views: 973.7ms | ActiveRecord: 68.0ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:07:26 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:07:26 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:26 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:26 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:07:31 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 22:07:31.209136"], ["updated_at", "2015-01-01 22:07:31.209136"]]
+  [1m[35m (15.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.2ms)[0m  
+			insert into games_users values
+			  (3, 66)
+		
+  Rendered games/play.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1441ms (Views: 78.6ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:07:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:32 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:32 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:32 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:07:32 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:07:32 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:10:56 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 22:10:56.792208"], ["updated_at", "2015-01-01 22:10:56.792208"]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (1.1ms)[0m  [1m
+			insert into games_users values
+			  (3, 67)
+		[0m
+  Rendered games/play.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 1278ms (Views: 226.7ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:10:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:10:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:10:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:10:58 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:10:58 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:10:58 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:10:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:10:58 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:10:58 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:20:50 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 22:20:51.628692"], ["updated_at", "2015-01-01 22:20:51.628692"]]
+  [1m[35m (40.6ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.3ms)[0m  
+			insert into games_users values
+			  (3, 68)
+		
+Completed 500 Internal Server Error in 1916ms
+
+NoMethodError (undefined method `sample' for TriviaWrapper:Class):
+  app/models/trivia_wrapper.rb:94:in `getInventionTrivia'
+  app/controllers/games_controller.rb:13:in `create_invention'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.9ms)
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:21:33 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 22:21:33.850952"], ["updated_at", "2015-01-01 22:21:33.850952"]]
+  [1m[36m (296.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (1.3ms)[0m  [1m
+			insert into games_users values
+			  (3, 69)
+		[0m
+Completed 500 Internal Server Error in 1787ms
+
+NoMethodError (undefined method `sample' for TriviaWrapper:Class):
+  app/models/trivia_wrapper.rb:94:in `getInventionTrivia'
+  app/controllers/games_controller.rb:13:in `create_invention'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.9ms)
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:22:20 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (32.7ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 22:22:21.025716"], ["updated_at", "2015-01-01 22:22:21.025716"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.3ms)[0m  
+			insert into games_users values
+			  (3, 70)
+		
+Completed 500 Internal Server Error in 1648ms
+
+NoMethodError (undefined method `sample' for TriviaWrapper:Class):
+  app/models/trivia_wrapper.rb:94:in `getInventionTrivia'
+  app/controllers/games_controller.rb:13:in `create_invention'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.2ms)
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:22:50 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 22:22:50.290684"], ["updated_at", "2015-01-01 22:22:50.290684"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (33.9ms)[0m  [1m
+			insert into games_users values
+			  (3, 71)
+		[0m
+  Rendered games/play.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1510ms (Views: 415.9ms | ActiveRecord: 39.1ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:22:51 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:22:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:22:51 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:22:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:22:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:22:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:22:51 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:22:51 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:22:51 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:25:36 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 22:25:36.185491"], ["updated_at", "2015-01-01 22:25:36.185491"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (34.4ms)[0m  
+			insert into games_users values
+			  (3, 72)
+		
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 781ms (Views: 159.9ms | ActiveRecord: 36.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:25:37 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:25:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:25:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:25:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:25:37 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:25:37 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:25:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:25:37 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:25:37 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:27:30 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 22:27:30.697754"], ["updated_at", "2015-01-01 22:27:30.697754"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (37.6ms)[0m  [1m
+			insert into games_users values
+			  (3, 73)
+		[0m
+  Rendered games/play.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1104ms (Views: 71.3ms | ActiveRecord: 39.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:27:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:31 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:31 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:31 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:31 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:27:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:31 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-01 22:27:39.171520"], ["updated_at", "2015-01-01 22:27:39.171520"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (38.6ms)[0m  
+			insert into games_users values
+			  (3, 74)
+		
+  Rendered games/play.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 497ms (Views: 67.3ms | ActiveRecord: 41.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 17:27:39 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 18:51:45 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[36m (55.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (255.0ms)[0m  INSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["category", "Invention"], ["created_at", "2015-01-01 23:51:47.167051"], ["updated_at", "2015-01-01 23:51:47.167051"]]
+  [1m[36m (5981.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (63.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (218.9ms)[0m  [1m
+			insert into games_users values
+			  (3, 75)
+		[0m
+  Rendered games/play.html.erb within layouts/application (171.1ms)
+Completed 200 OK in 9711ms (Views: 2217.6ms | ActiveRecord: 6574.1ms)
+
+
+Started GET "/assets/global.css?body=1" for 127.0.0.1 at 2015-01-01 18:51:57 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 18:51:57 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 18:51:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 18:51:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 18:51:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 18:51:58 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 18:51:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 18:51:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 18:51:58 -0500
+
+
+Started GET "/games/create_invention" for 127.0.0.1 at 2015-01-01 23:51:44 -0500
+Processing by GamesController#create_invention as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["category", "Invention"], ["created_at", "2015-01-02 04:51:44.488153"], ["updated_at", "2015-01-02 04:51:44.488153"]]
+  [1m[35m (610.0ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (16.4ms)[0m  
+			insert into games_users values
+			  (3, 76)
+		
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1404ms (Views: 288.5ms | ActiveRecord: 627.3ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-01 23:51:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 23:51:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:46 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:46 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:46 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:46 -0500
+
+
+Started GET "/games/users" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"users"}
+  Rendered games/show.html.erb within layouts/application (71.9ms)
+Completed 200 OK in 143ms (Views: 141.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-01 23:51:49 -0500
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-01 23:51:56 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 137ms (Views: 136.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-01 23:51:57 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (74.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (18.2ms)
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (130.9ms)
+Completed 200 OK in 230ms (Views: 154.6ms | ActiveRecord: 74.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-01 23:51:58 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 23:51:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:59 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:59 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:59 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 23:51:59 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-01 23:51:59 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-01 23:52:04 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (419.7ms)
+  Rendered users/new.html.erb within layouts/application (436.7ms)
+Completed 200 OK in 547ms (Views: 546.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-01 23:52:04 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (4.3ms)
+  Rendered users/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-01 23:52:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-01 23:52:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-01 23:52:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-01 23:52:04 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-01 23:52:05 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-01 23:52:05 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-01 23:52:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-01 23:52:05 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-01 23:52:05 -0500
