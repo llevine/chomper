@@ -1,7 +1,17 @@
 <script>var triviaConnector = <%= raw(@trivia.to_json) %>;</script>
 
-<h2><div id="totalScore">000</div></h2>
-<h2><div id="question"></div></h2>
+<h2>
+	<div id="totalScore">
+		000
+	</div>
+</h2>
+
+<div id="bar"></div>
+
+<h2>
+	<div id="question">
+	</div>
+</h2>
 
 <div class="row">
 	<div class="cell" id="0">0</div>
@@ -27,4 +37,25 @@
 
 <script>game.start();
 	$('.cell').click({current_game: game}, game.play);
+
+		$(document).ready(function() {
+    var maxWidth = 880;
+    var duration = 60000;
+    var timer;
+    var $bar = $('#bar');
+      Horloge(maxWidth);
+      timer = setInterval('Horloge('+maxWidth+')', 10);
+
+      $bar.animate({
+          width: maxWidth
+      }, duration, function() {
+          $(this).css('background-color', 'red');
+          clearInterval(timer);    
+    });
+});
+
+function Horloge(maxWidth) {
+    var w = $('#bar').width();
+    var percent = parseInt((w * 100) / maxWidth);
+}
 </script>

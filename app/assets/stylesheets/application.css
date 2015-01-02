@@ -22,6 +22,17 @@
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
+#bar {
+    margin: 0 auto;
+    width: 0px;
+    height: 25px;
+    border: 1px solid black;
+    background: #82ff05;
+    border-radius: 3px;
+}
+
+
+
 /*-----------------GLOBAL STYLING--------------------*/
 
 body {

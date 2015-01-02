@@ -1,9 +1,8 @@
 function Board(){
-	this.wholeBoard = [];
 	this.allTrivia = [];
 	this.allSolved = [];
 	this.currentQuestion = {};
-	this.totalScore = 000;
+	this.totalScore = 0;
 }
 
 Board.prototype.createBoard = function(){
@@ -13,15 +12,11 @@ Board.prototype.createBoard = function(){
 		// creates a new cell object and sets value of that object to a random trivia answer
 		var createCell = new Cell;
 		createCell.setState(i);
-		this.wholeBoard.push(createCell);
 
-		// adds a question an answer object to an array
-		var t = triviaConnector[i];
-		var v = (t.value == null) ? 100 : t.value;
-		qAndA = {question: t.question, answer: t.answer, value: v};		
-		this.allTrivia.push(qAndA);
+		// adds a question an answer object to an array	
+		this.allTrivia.push(createCell);
+		// console.log(this.allTrivia);
 	}
-	// console.log(this.wholeBoard);
 }
 
 Board.prototype.getTriviaQuestion = function(){
@@ -40,23 +35,24 @@ Board.prototype.getTriviaQuestion = function(){
 		// maybe move the above if statement to the game page as a game over scenerio checker...
 		console.log('game over');
 	}
-	$("#question").html(this.currentQuestion['question']);
+	$("#question").html(this.currentQuestion.value['question']);
 }
 
 Board.prototype.makePlay = function(chosenCell){
-	if (this.currentQuestion.answer === chosenCell){
-		this.totalScore += this.currentQuestion.value;
+	console.log(chosenCell)
+	if (this.currentQuestion.value['answer'] === chosenCell){
+		this.totalScore += this.currentQuestion.value['pointValue'];
+		// this.chosenCell.active = false;
 		this.getTriviaQuestion();
-		alert(this.totalScore);
+		alert(chosenCell);
 	}
 	else {
-		this.totalScore -= this.currentQuestion.value/2;
-
+		this.totalScore -= this.currentQuestion.value['pointValue']/2;
 	}
 	$("#totalScore").html(this.totalScore);
 }
 
-Board.prototype.checkWin = function(){
+Board.prototype.checkOver = function(){
 	if (this.allTrivia.length === 0){
 		return true;
 	}
@@ -67,6 +63,6 @@ Board.prototype.checkWin = function(){
 
 Board.prototype.render = function(){
 	for (var i = 0; i < this.allTrivia.length; i++) {
-		$("#" + i).html(this.allTrivia[i].answer + "<br>" + this.allTrivia[i].value);
+		$("#" + i).html(this.allTrivia[i].value['answer'] + "<br>" + this.allTrivia[i].value['pointValue']);
 	}
 }

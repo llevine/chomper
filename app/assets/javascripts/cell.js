@@ -1,12 +1,12 @@
 function Cell(){
 	this.active = true;
-	this.value = "";
+	this.value = {};
 	this.score = 0;
 }
 
 Cell.prototype.setState = function(index){
-		this.value = triviaConnector[index]['answer'];
-		// console.log(this.value);
+		var t = triviaConnector[index];
+		this.value = {question: t.question, answer: t.answer, pointValue: t.value};	
 }
 
 Cell.prototype.render = function(){

@@ -33951,3 +33951,3181 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 03:42:55
 
 
 Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 03:42:55 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-02 04:03:10 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#new as HTML
+  Rendered games/_form.html.erb (1.8ms)
+  Rendered games/new.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 681ms (Views: 639.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:03:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:03:14 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:03:14 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:14 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:14 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:14 -0500
+
+
+Started GET "/games/play?utf8=%E2%9C%93&catagory=TriviaWrapper.getInventionTrivia%28%29&commit=Play%21" for 127.0.0.1 at 2015-01-02 04:03:42 -0500
+Processing by GamesController#show as HTML
+  Parameters: {"utf8"=>"✓", "catagory"=>"TriviaWrapper.getInventionTrivia()", "commit"=>"Play!", "id"=>"play"}
+  Rendered games/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 316ms (Views: 315.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:03:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:03:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:45 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:03:45 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:47 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:47 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:03:47 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-02 04:17:40 -0500
+Processing by GamesController#new as HTML
+  Rendered games/_form.html.erb (1.3ms)
+  Rendered games/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 607ms (Views: 578.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+Processing by GamesController#new as HTML
+  Rendered games/_form.html.erb (0.9ms)
+  Rendered games/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 112ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:41 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:17:42 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-02 04:18:02 -0500
+Processing by GamesController#new as HTML
+  Rendered games/_form.html.erb (0.8ms)
+  Rendered games/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 152ms (Views: 151.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:18:03 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-02 04:33:41 -0500
+Processing by GamesController#new as HTML
+  Rendered games/_form.html.erb (6.3ms)
+  Rendered games/new.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 682ms (Views: 663.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:33:42 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-02 04:34:28 -0500
+Processing by GamesController#new as HTML
+  Rendered games/_form.html.erb (1.0ms)
+  Rendered games/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 129ms (Views: 128.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:34:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:34:28 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:28 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:29 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:29 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:34:29 -0500
+
+
+Started GET "/games/gamePlay" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"gamePlay"}
+  Rendered games/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 96ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:34:52 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:35:10 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 705ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:11 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:35:54 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1069ms (Views: 347.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:35:55 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 443ms (Views: 106.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:36:12 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 434ms (Views: 105.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:36:21 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 357ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:36:23 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:47:06 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 731ms (Views: 279.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:07 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:47:47 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1257ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:47:48 -0500
+
+
+Started GET "/games/games/new" for 127.0.0.1 at 2015-01-02 04:47:49 -0500
+
+ActionController::RoutingError (No route matches [GET] "/games/games/new"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.3ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (13.7ms)
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:48:22 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 985ms (Views: 92.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:48:23 -0500
+
+
+Started GET "/games/games/new" for 127.0.0.1 at 2015-01-02 04:48:24 -0500
+
+ActionController::RoutingError (No route matches [GET] "/games/games/new"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (2.2ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.8ms)
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 382ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:34 -0500
+
+
+Started GET "/games/games/new" for 127.0.0.1 at 2015-01-02 04:48:35 -0500
+
+ActionController::RoutingError (No route matches [GET] "/games/games/new"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.8ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (9.1ms)
+
+
+Started GET "/games/games/new" for 127.0.0.1 at 2015-01-02 04:48:50 -0500
+
+ActionController::RoutingError (No route matches [GET] "/games/games/new"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (2.4ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (9.4ms)
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:48:57 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 769ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:48:58 -0500
+
+
+Started GET "/games/games/new" for 127.0.0.1 at 2015-01-02 04:48:59 -0500
+
+ActionController::RoutingError (No route matches [GET] "/games/games/new"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (2.8ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (9.8ms)
+
+
+Started GET "/games/games/new" for 127.0.0.1 at 2015-01-02 04:49:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/games/games/new"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (11.8ms)
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:49:20 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 880ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:49:21 -0500
+
+
+Started GET "/games/games/new" for 127.0.0.1 at 2015-01-02 04:49:23 -0500
+
+ActionController::RoutingError (No route matches [GET] "/games/games/new"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.8ms)
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:49:30 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2157ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:49:32 -0500
+
+
+Started GET "/games/games/new" for 127.0.0.1 at 2015-01-02 04:49:33 -0500
+
+ActionController::RoutingError (No route matches [GET] "/games/games/new"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (2.2ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.7ms)
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:49:44 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 388ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:49:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:49:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:45 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:45 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:45 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:49:45 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:49:45 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:50:47 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 436ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:50:48 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:51:01 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1123ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:51:02 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:52:11 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1933ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:52:13 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:52:25 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 791ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:52:26 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:53:09 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 779ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:10 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 326ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:26 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:53:44 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1215ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:45 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:53:57 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 848ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:53:58 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:56:48 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 943ms (Views: 287.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:56:49 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:58:02 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 5611ms (Views: 133.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:58:08 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:58:26 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 412ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:58:27 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:58:55 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1698ms (Views: 215.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:58:57 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:59:45 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 874ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:46 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:59:50 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 420ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 04:59:51 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 04:59:59 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 382ms (Views: 128.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:00:00 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 622ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:00:10 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:00:50 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1479ms (Views: 279.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:00:52 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 573ms (Views: 251.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:01:59 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:05:00 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1352ms (Views: 653.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:01 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:05:14 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 405ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:15 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 707ms (Views: 367.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:05:27 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:08:37 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1303ms (Views: 437.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:08:38 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:08:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:08:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:08:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:08:38 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:08:38 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:08:39 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:08:39 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:08:39 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:08:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:08:39 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:09:14 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 858ms (Views: 182.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:09:15 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:10:12 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 907ms (Views: 223.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:10:13 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:18:00 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 2505ms (Views: 636.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:18:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:18:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:18:02 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:18:02 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:18:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:18:02 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:18:03 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:18:03 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:18:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:18:03 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:18:03 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:19:15 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 996ms (Views: 312.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:16 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:19:25 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 427ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:19:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:19:26 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 516ms (Views: 132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:19:40 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:20:06 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 968ms (Views: 154.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:20:07 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:26:31 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1119ms (Views: 466.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:32 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:26:34 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 396ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:26:35 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:27:35 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 865ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:36 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:27:53 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 565ms (Views: 293.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:27:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:27:54 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 444ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:04 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:28:19 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 856ms (Views: 142.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:20 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:28:25 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 419ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:26 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:28:28 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1047ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:28:29 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:29:10 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 812ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:11 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:29:15 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 373ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:16 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:29:17 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 384ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:18 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:29:21 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1390ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:22 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:29:49 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1238ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:50 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 370ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:29:57 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 446ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:07 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:30:26 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 1504ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:28 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:30:51 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 987ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:30:52 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:36:18 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 737ms (Views: 449.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:36:19 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:36:20 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:37:04 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2328ms (Views: 154.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:37:06 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:38:32 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1143ms (Views: 427.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:33 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:38:46 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 405ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:38:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:38:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:47 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:38:47 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:47 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:47 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:47 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:47 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:38:47 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 343ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:38:48 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:39:34 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 890ms (Views: 201.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:39:35 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:40:10 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 990ms (Views: 239.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:40:11 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:41:01 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 980ms (Views: 250.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:41:02 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:42:30 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 938ms (Views: 182.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:31 -0500
+
+
+Started GET "/games/playGame" for 127.0.0.1 at 2015-01-02 05:42:35 -0500
+Processing by GamesController#playGame as HTML
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1189ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
+
+
+Started GET "/assets/timer.js?body=1" for 127.0.0.1 at 2015-01-02 05:42:36 -0500
