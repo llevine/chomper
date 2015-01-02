@@ -17,22 +17,13 @@
 
 
 $(function() {
-  console.log("Loaded, bro.");
-  $('button').on('click', newGame);
+	$('.cell').on('click', playGame);
   var blink = function() {$('.blink').animate({opacity: '1'}, 1000, function(){$(this).animate({opacity: '0'}, blink);});}
   blink();
+  game.start();
 });
 
-var newGame = function() {
-	$('.blink').remove();
-	$.get("games/new").done(displayGamesList);
-}
-
-// function fetchPosts() {
-//   $.get('/posts').done(displayPosts);
-// }
-
-function displayGamesList(data) {
-  var postContainer = $('#posts-container');
-  data ? data.forEach(renderPost) : alert('No more results!');
+var playGame = function(){
+	var selectedCell = (this.id);
+	game.play(selectedCell);
 }

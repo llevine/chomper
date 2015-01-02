@@ -11,8 +11,9 @@ var game = {
 		this.board.render();
 		this.board.getTriviaQuestion();
 	},
-	play: function(e) {
-		var elem = $(this);
-		e.data.current_game.board.makePlay(elem.html().split("<br>")[0]);
+	play: function(position) {
+		this.board.makePlay(position);
+		// var elem = $(this);
+		// e.data.current_game.board.makePlay(elem.html().split("<br>")[0]);
 	}
 };

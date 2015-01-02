@@ -34,28 +34,3 @@
 	<div class="cell" id="13">13</div>
 	<div class="cell" id="14">14</div>
 </div>
-
-<script>game.start();
-	$('.cell').click({current_game: game}, game.play);
-
-		$(document).ready(function() {
-    var maxWidth = 880;
-    var duration = 60000;
-    var timer;
-    var $bar = $('#bar');
-      Horloge(maxWidth);
-      timer = setInterval('Horloge('+maxWidth+')', 10);
-
-      $bar.animate({
-          width: maxWidth
-      }, duration, function() {
-          $(this).css('background-color', 'red');
-          clearInterval(timer);    
-    });
-});
-
-function Horloge(maxWidth) {
-    var w = $('#bar').width();
-    var percent = parseInt((w * 100) / maxWidth);
-}
-</script>
