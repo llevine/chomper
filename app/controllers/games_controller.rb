@@ -7,10 +7,14 @@ class GamesController < ApplicationController
 		render :new
 	end
 
-	def create_invention
-		@game = Game.create(category: "Invention")
-		@game.user = current_user
+	def playGame
+		# @game = Game.create(params[:category])
+		# @game.user = current_user
+		gameType = params[:category]
+
 		@trivia = TriviaWrapper.getInventionTrivia()
+		# @trivia = params[:category]
+
 		render :play
 	end
 

@@ -25,11 +25,15 @@
 /*-----------------GLOBAL STYLING--------------------*/
 
 body {
-    background: black;
-    cursor: default;
+    width: 85%;
+    margin: 50px auto;
+/*    background: black;
+*/    cursor: default;
 }
 
-h1 {
+#header {
+    color: #82ff05;
+
     /*PROBABLY NOTS*/
     /*font-family: 'Press Start 2P', cursive;*/
 
@@ -39,50 +43,73 @@ h1 {
     font-family: 'Bowlby One SC', cursive;
     /*font-family: 'VT323', cursive;*/
     /*font-family: 'Share Tech Mono', cursive;*/
-    color: #82ff05;
-    letter-spacing: 3px;
     font-size: 75px;
+    letter-spacing: 10px;    
     line-height: 75px;
     text-align: center;
-    letter-spacing: 10px;
+    margin: 0;
+}
+
+.button {
+    display: block;
+    width: 450px;
+    padding: 15px;
+    border: 3px solid #82ff05;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 150px;
+    
+    background: black;
+    color: #82ff05;
+    cursor: pointer; cursor: hand;
+
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    text-align: center;
 }
 
 h2 {
-    color: white;
+    color: red;
+    text-align: center;
+
 }
 
-button {
+#totalScore {
     display: block;
-    padding: 15px;
-    margin: 0 auto;
-    border-radius: 10px;
-    background: black;
-    border: 3px solid #82ff05;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 35px;
-    color: #82ff05;
-    text-align: center;
-    cursor: pointer; cursor: hand;
-}
+/*    margin-top: -50px;
+*/}
 
 a {
     color: yellow;
 }
 
-/*////////////////////////////////////////////////////////////*/
-
-/*-----------------EVENT HANDLERS ------------------*/
-
-/*button {
-    transition: color 700ms ease;
+.row {
+    display: table;
+    width: 880px;
+/*    height: 176px;*/
+    margin: 0 auto;
 }
 
-button.blink{
-    color: transparent;
-}*/
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 160px;
+    height: 160px;
+/*    background: #ebe6e1;
+*/  margin: 250px;
+    border-radius: 5px;
+    border: 3px solid #e0d9d2;
 
-button:focus {
-    outline:0;
+    text-align: center;
+    color: #e3799a;
+    font-size: 18px;
+}
+
+/*-----------------EVENT HANDLERS ------------------*/
+.cell:hover {
+    cursor: pointer; cursor: hand;
+    border: 3px solid #82ff05;
 }
 
 /*shows what fields have errors in a form, if the form page doesn't save and is rerendered*/
@@ -90,31 +117,4 @@ button:focus {
     border: 2px solid red;
 }
 
-/*-----------------FORM STYLING GOES HERE--------------------*/
-
-
-
-
 /*////////////////////////////////////////////////////////////*/
-
-
-.row {
-  width: 880px;
-  height: 176px;
-  margin: 0 auto;
-  clear: both;
-}
-
-.cell {
-  width: 160px;
-  height: 160px;
-  margin: 5px;
-  border-radius: 5px;
-  background: #ebe6e1;
-  border: 3px solid #e0d9d2;
-  float: left;
-
-  text-align: center;
-  color: #6c6c6c;
-  font-size: 20px;
-}

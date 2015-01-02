@@ -1,0 +1,17 @@
+
+<%= form_tag("/games/play", method: "get") do %>
+	<%= radio_button_tag(:catagory, "TriviaWrapper.getMovieTrivia()") %>
+	<%= label_tag(:catagory, "Movies") %>
+
+	<%= radio_button_tag(:catagory, "TriviaWrapper.getInventionTrivia()") %>
+	<%= label_tag(:catagory, "Inventions") %>
+	
+	<%= radio_button_tag(:catagory, "TriviaWrapper.getPoliticTrivia()") %>
+	<%= label_tag(:catagory, "Politics") %>
+	
+	<%= radio_button_tag(:catagory, "TriviaWrapper.getBaseballTrivia()") %>
+	<%= label_tag(:catagory, "Baseball") %>
+  
+  <%= submit_tag("Play!") %>
+<% end %>
+<!-- <a href="/games/playGame">New Invention Game</a> -->

@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   resources :users
 
-  get 'games/create_invention' => 'games#create_invention'
+  get 'games/playGame' => 'games#playGame'
   resources :games, except: [:edit, :update]
 
 
