@@ -12,6 +12,7 @@ Rails.application.routes.draw do
 
 
   get 'achievements/index' => 'achievements#index'
+  post 'save_question' => 'games#saveQuestion'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

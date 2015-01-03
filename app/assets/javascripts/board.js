@@ -56,7 +56,7 @@ Board.prototype.getTriviaQuestion = function(){
 
 // i need chosen cell to be the answer phrase that's in the clicked div. and i want to compare it to index 0 of the this.solved array answer
 Board.prototype.makePlay = function(userGuess){
-	  //alert("current index: " + this.currentIndex + " userGuess: " + userGuess);
+	  alert("current index: " + this.currentIndex + " userGuess: " + userGuess);
 	  if (this.currentIndex == userGuess) {
 		//if (this.currentQuestion.trivia.answer === userGuess){
 			this.totalScore += this.currentQuestion.trivia.pointValue;
@@ -70,6 +70,7 @@ Board.prototype.makePlay = function(userGuess){
 		}
 		else {
 			//this removes a live. user has a total of 3 lives
+			alert("subtracing a life");
 			$("#life" + this.lives).remove();
 			this.lives -= 1;
 			//this lowers the score by the point value of the wrong answer chosen
@@ -79,9 +80,7 @@ Board.prototype.makePlay = function(userGuess){
 }
 
 Board.prototype.checkOver = function(){
-	if (this.numAsked === 15 || this.totalScore <= -1000 || this.lives === 0){	
-		return this.gameOver = true;
-	}
+	return (this.numAsked === 15 || this.totalScore <= -1000 || this.lives === 0);
 }
 
 Board.prototype.renderBoard = function(){
@@ -92,7 +91,8 @@ Board.prototype.renderBoard = function(){
 		
 	$("#0").prepend("<img src='http://i.imgur.com/Vy9uacp.png' id='chomper'>");
 	$("#totalScore").html(this.totalScore);
-	for (var i=0; i<4; i++){
+
+	for (var i=1; i<=3; i++){
 		$("#life" + i).html("<img src='http://i.imgur.com/Vy9uacp.png'>");
 	}
 }

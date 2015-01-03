@@ -21,23 +21,14 @@
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-#bar {
-    margin: 0 auto;
-    width: 0px;
-    height: 25px;
-    border: 1px solid black;
-    background: #82ff05;
-    border-radius: 3px;
-}
-
-
 
 /*-----------------GLOBAL STYLING--------------------*/
 
 body {
     width: 85%;
     margin: 50px auto;
-    background: black;
+    /*background: black;*/
+    background: url(http://i.imgur.com/GbNjPFV.png);
     cursor: default;
 }
 
@@ -137,6 +128,15 @@ h2 {
 
 #question {
     height: 2.25em;
+}
+
+#bar {
+    margin: 0 auto;
+    width: 0px;
+    height: 25px;
+    border: 1px solid black;
+    background: #82ff05;
+    border-radius: 3px;
 }
 
 /*-----------------EVENT HANDLERS ------------------*/

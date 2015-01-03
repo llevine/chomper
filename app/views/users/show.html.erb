@@ -12,5 +12,14 @@
 			<h2>scoreboard</h2>
 			<p>HIGHSCORES</p>
 		</div>
+
+		<div>
+			<h2>Saved Questions</h2>
+			<ul>
+				<% SavedQuestion.where("user_id = ?", current_user.id).each do |sq| %>
+				  <li><%= sq.question %> -> <%= sq.answer %></li>
+				<% end %>
+			</ul>
+		</div>
 	</div>
 </div>

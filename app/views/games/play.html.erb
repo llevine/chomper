@@ -7,82 +7,90 @@
 	  game.start();
 
 	  // this line adds event listeners to all cells and runs the playGame function if cell is clicked. 
-	  // $('.cell').on('click', playGame);
-	  var chomperCurrentLocation = 0;
-	  var character = "<img src='http://i.imgur.com/Vy9uacp.png' id='chomper'>";
+	  $('.cell').on('click', playGame);
+	 //  var chomperCurrentLocation = 0;
+	 //  var character = "<img src='http://i.imgur.com/Vy9uacp.png' id='chomper'>";
+	 //  var freeze = false;
 
-		$(document).keydown(function(e) {
+		// $(document).keydown(function(e) {
 			
-			if (chomperCurrentLocation < 15 && chomperCurrentLocation >= 0){
-		    switch(e.which) {
+		// 	if (chomperCurrentLocation < 15 && chomperCurrentLocation >= 0){
+		//     switch(e.which) {
 		    	
-	        case 37: // left
-						$('#chomper').remove();
-						if (chomperCurrentLocation === 0 || chomperCurrentLocation === 5 || chomperCurrentLocation === 10){
-							chomperCurrentLocation += 4;
-						}
-						else {
-							chomperCurrentLocation -= 1;
-						}
+	 //        case 37: // left
+	 //          freeze = false;
+		// 				$('#chomper').remove();
+		// 				if (chomperCurrentLocation === 0 || chomperCurrentLocation === 5 || chomperCurrentLocation === 10){
+		// 					chomperCurrentLocation += 4;
+		// 				}
+		// 				else {
+		// 					chomperCurrentLocation -= 1;
+		// 				}
 						
-						$('#' + chomperCurrentLocation).append(character);
-	        break;
+		// 				$('#' + chomperCurrentLocation).append(character);
+	 //        break;
 
-	        case 38: // up
-	        	$('#chomper').remove();
-						if (chomperCurrentLocation >= 0 && chomperCurrentLocation <= 4){
-							chomperCurrentLocation += 10;
-						}
-						else {
-							chomperCurrentLocation -= 5;
-						}
+	 //        case 38: // up
+	 //          freeze = false;
+	 //        	$('#chomper').remove();
+		// 				if (chomperCurrentLocation >= 0 && chomperCurrentLocation <= 4){
+		// 					chomperCurrentLocation += 10;
+		// 				}
+		// 				else {
+		// 					chomperCurrentLocation -= 5;
+		// 				}
 						
-						$('#' + chomperCurrentLocation).append(character);
-	        break;
+		// 				$('#' + chomperCurrentLocation).append(character);
+	 //        break;
 
-	        case 39: // right
-						$('#chomper').remove();
-						if (chomperCurrentLocation === 4 || chomperCurrentLocation === 9 || chomperCurrentLocation === 14){
-							chomperCurrentLocation -= 4;
-						}
-						else {
-							chomperCurrentLocation += 1;
-						}
+	 //        case 39: // right
+	 //          freeze = false;
+		// 				$('#chomper').remove();
+		// 				if (chomperCurrentLocation === 4 || chomperCurrentLocation === 9 || chomperCurrentLocation === 14){
+		// 					chomperCurrentLocation -= 4;
+		// 				}
+		// 				else {
+		// 					chomperCurrentLocation += 1;
+		// 				}
 						
-						$('#' + chomperCurrentLocation).append(character);
-	        break;
+		// 				$('#' + chomperCurrentLocation).append(character);
+	 //        break;
 
-	        case 40: // down
-	        	$('#chomper').remove();
-						if (chomperCurrentLocation >= 10 && chomperCurrentLocation <= 14){
-							chomperCurrentLocation -= 10;
-						}
-						else {
-							chomperCurrentLocation += 5;
-						}
+	 //        case 40: // down
+	 //          freeze = false;
+	 //        	$('#chomper').remove();
+		// 				if (chomperCurrentLocation >= 10 && chomperCurrentLocation <= 14){
+		// 					chomperCurrentLocation -= 10;
+		// 				}
+		// 				else {
+		// 					chomperCurrentLocation += 5;
+		// 				}
 						
-						$('#' + chomperCurrentLocation).append(character);
-	        break;
+		// 				$('#' + chomperCurrentLocation).append(character);
+	 //        break;
 
-	        case 13: //enter key
-	        	playGame(chomperCurrentLocation);
-	        break;
+	 //        case 13: //enter key
+	 //          if (!freeze) {
+	 //        	  playGame(chomperCurrentLocation);
+	 //        	  freeze = true;
+	 //        	}
+	 //        break;
 
-	        default: return; // exit this handler for other keys
-	    }
+	 //        default: return; // exit this handler for other keys
+	 //    }
 	    
-	    e.preventDefault(); // prevent the default action (scroll / move caret)
-  		}
-		});
+	 //    e.preventDefault(); // prevent the default action (scroll / move caret)
+  // 		}
+		// });
 	});
 
-	        	function playGame(e){
-							game.play(e);
+	        	function playGame(position){
+							game.play(position);
 						}
 
-	// function playGame(){
-	// 	game.play(this.id);
-	// }
+	function playGame(){
+		game.play(this.id);
+	}
 
 	// game timer that loads when the document page is ready
 
@@ -151,4 +159,6 @@ function Horloge(maxWidth) {
 			<div class="cell" id="14">14</div>
 		</div>
 	</div>
+
+	<a class="button" onclick="saveQuestion();">Save Question</a>
 </div>

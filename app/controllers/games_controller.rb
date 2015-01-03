@@ -25,10 +25,19 @@ class GamesController < ApplicationController
 	def destroy
 	end
 
+	def saveQuestion
+		sq = SavedQuestion.create(
+			user_id: current_user.id,
+			question: params[:question],
+			answer: params[:answer]
+		)
+		# TODO: can check sq.valid? here
+		render json: { "success" => true }
+	end
+
 	private
 
 	def game_params
 		params.require(:game).permit(:category, :question, :answer, :score, :chomper)
 	end
-
 end
