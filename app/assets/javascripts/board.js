@@ -12,9 +12,9 @@ function Board(){
 	this.allTrivia = [];
 	this.allSolved = [];
 	this.currentQuestion = {};
-	this.totalScore = 0;
 	this.numAsked = 0;
 	this.gameOver = false;
+	this.lives = 3;
 }
 
 Board.prototype.createBoard = function(){
@@ -24,7 +24,7 @@ Board.prototype.createBoard = function(){
 		cell.setState(triviaConnector[i]);	
 		this.allTrivia.push(cell);
 	}
-
+	this.totalScore = 0;
 	// indices is an array that holds numbers 0 - 14 in it.
 	var indices = [];
 	for (var i=0; i<this.allTrivia.length; i++){
@@ -69,13 +69,17 @@ Board.prototype.makePlay = function(userGuess){
 			this.allTrivia[userGuess].render(userGuess);
 		}
 		else {
-			this.totalScore -= this.currentQuestion.trivia.pointValue;
+			//this removes a live. user has a total of 3 lives
+			$("#life" + this.lives).remove();
+			this.lives -= 1;
+			//this lowers the score by the point value of the wrong answer chosen
+			//this.totalScore -= this.allTrivia[userGuess].trivia.pointValue;
 		}
 		$("#totalScore").html(this.totalScore);
 }
 
 Board.prototype.checkOver = function(){
-	if (this.numAsked === 15 || this.totalScore <= -1000){	
+	if (this.numAsked === 15 || this.totalScore <= -1000 || this.lives === 0){	
 		return this.gameOver = true;
 	}
 }
@@ -83,5 +87,12 @@ Board.prototype.checkOver = function(){
 Board.prototype.renderBoard = function(){
 	for (var i = 0; i < this.allTrivia.length; i++) {
 		this.allTrivia[i].render(i);
+	}
+	$('#gamePage').append("<a href='/games/new' class='button blink' id='endGame'>End Game</a>");
+		
+	$("#0").prepend("<img src='http://i.imgur.com/Vy9uacp.png' id='chomper'>");
+	$("#totalScore").html(this.totalScore);
+	for (var i=0; i<4; i++){
+		$("#life" + i).html("<img src='http://i.imgur.com/Vy9uacp.png'>");
 	}
 }

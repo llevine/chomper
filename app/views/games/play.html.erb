@@ -2,18 +2,87 @@
   var triviaConnector = <%= raw(@trivia.to_json) %>;
 
   $(function() {
-		$('.cell').on('click', playGame);
 	  var blink = function() {$('.blink').animate({opacity: '1'}, 1000, function(){$(this).animate({opacity: '0'}, blink);});}
 	  blink();
 	  game.start();
+
+	  // this line adds event listeners to all cells and runs the playGame function if cell is clicked. 
+	  // $('.cell').on('click', playGame);
+	  var chomperCurrentLocation = 0;
+	  var character = "<img src='http://i.imgur.com/Vy9uacp.png' id='chomper'>";
+
+		$(document).keydown(function(e) {
+			
+			if (chomperCurrentLocation < 15 && chomperCurrentLocation >= 0){
+		    switch(e.which) {
+		    	
+	        case 37: // left
+						$('#chomper').remove();
+						if (chomperCurrentLocation === 0 || chomperCurrentLocation === 5 || chomperCurrentLocation === 10){
+							chomperCurrentLocation += 4;
+						}
+						else {
+							chomperCurrentLocation -= 1;
+						}
+						
+						$('#' + chomperCurrentLocation).append(character);
+	        break;
+
+	        case 38: // up
+	        	$('#chomper').remove();
+						if (chomperCurrentLocation >= 0 && chomperCurrentLocation <= 4){
+							chomperCurrentLocation += 10;
+						}
+						else {
+							chomperCurrentLocation -= 5;
+						}
+						
+						$('#' + chomperCurrentLocation).append(character);
+	        break;
+
+	        case 39: // right
+						$('#chomper').remove();
+						if (chomperCurrentLocation === 4 || chomperCurrentLocation === 9 || chomperCurrentLocation === 14){
+							chomperCurrentLocation -= 4;
+						}
+						else {
+							chomperCurrentLocation += 1;
+						}
+						
+						$('#' + chomperCurrentLocation).append(character);
+	        break;
+
+	        case 40: // down
+	        	$('#chomper').remove();
+						if (chomperCurrentLocation >= 10 && chomperCurrentLocation <= 14){
+							chomperCurrentLocation -= 10;
+						}
+						else {
+							chomperCurrentLocation += 5;
+						}
+						
+						$('#' + chomperCurrentLocation).append(character);
+	        break;
+
+	        case 13: //enter key
+	        	playGame(chomperCurrentLocation);
+	        break;
+
+	        default: return; // exit this handler for other keys
+	    }
+	    
+	    e.preventDefault(); // prevent the default action (scroll / move caret)
+  		}
+		});
 	});
 
-	function playGame(){
-		//var selectedCell = (this.id);
-	// this sends the inner text
-		// var selectedCell = $(this).html().split('<br>')[0];
-		game.play(this.id);
-	}
+	        	function playGame(e){
+							game.play(e);
+						}
+
+	// function playGame(){
+	// 	game.play(this.id);
+	// }
 
 	// game timer that loads when the document page is ready
 
@@ -44,9 +113,13 @@ function Horloge(maxWidth) {
 <div id="gamePage">
 	<h2>
 		<div id="totalScore">
-			000
 		</div>
 	</h2>
+	<div id="lives" style="height:50px; width:150px; clear:both; background-color:green;">
+		<div id="life1"></div>
+		<div id="life2"></div>
+		<div id="life3"></div>
+	</div>
 
 	<div id="bar"></div>
 

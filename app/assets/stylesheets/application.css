@@ -21,7 +21,6 @@
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-
 #bar {
     margin: 0 auto;
     width: 0px;
@@ -51,10 +50,10 @@ body {
     /*MAYBE*/
     /*font-family: 'Hanalei Fill', cursive;*/
     /*font-family: 'Underdog', cursive;*/
-    font-family: 'Bowlby One SC', cursive;
+    /*font-family: 'Bowlby One SC', cursive;*/
     /*font-family: 'VT323', cursive;*/
-    /*font-family: 'Share Tech Mono', cursive;*/
-    font-size: 75px;
+    font-family: 'Share Tech Mono', cursive;
+    font-size: 50px;
     letter-spacing: 10px;    
     line-height: 75px;
     text-align: center;
@@ -98,6 +97,28 @@ body {
     text-align: center;
     color: #e3799a;
     font-size: 18px;
+    z-index: 0;
+}
+
+#chomper {
+    max-width: 50px;
+    position: absolute;
+    margin: 0 auto;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#lives {
+    border: 3px dashed white;
+    display: inline-block; 
+    width: 150px;
+    margin: 0 auto;
+}
+
+#lives>div>img {
+    float: left;
+    max-width: 50px;
+    margin: 0 auto;
 }
 
 .inactiveCell, .correctCell {

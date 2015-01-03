@@ -14,8 +14,10 @@ var game = {
 		this.board.checkOver();
 		if (this.board.gameOver){
 			$(".cell").addClass('inactiveCell').css('cursor', 'default').off('click', playGame);
+			$("#chomper").remove();
 			$("#question").html('GAMEOVER');
+			$('#gameBoard').append("<a href='/games/new' class='button blink' style='z-index: 2; position: relative; top: -280px; margin: 0 auto;'>New Game!</a>");
+			$('#endGame').remove();
 		}
-
 	}
 };
