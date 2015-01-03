@@ -1,19 +1,18 @@
 function Cell(){
 	this.active = true;
-	this.value = {};
+	this.trivia = {};
 	this.score = 0;
 }
 
-Cell.prototype.setState = function(index){
-		var t = triviaConnector[index];
-		this.value = {question: t.question, answer: t.answer, pointValue: t.value};	
+Cell.prototype.setState = function(t){
+		this.trivia = {question: t.question, answer: t.answer, pointValue: t.value};	
 }
 
 Cell.prototype.render = function(){
 	if (this.active === true){
-		return this.value;
+		this.trivia;
 	}
 	else {
-		return "cell inactive";
+		$(this).css('background', 'red');
 	}
 }

@@ -12,6 +12,8 @@ var game = {
 		this.board.getTriviaQuestion();
 	},
 	play: function(position) {
+		// alert(this.text);
+		alert(position);
 		this.board.makePlay(position);
 		// var elem = $(this);
 		// e.data.current_game.board.makePlay(elem.html().split("<br>")[0]);

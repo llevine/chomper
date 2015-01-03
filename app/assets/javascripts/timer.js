@@ -1,3 +1,5 @@
+// TODO: delete all of this and remove references to it
+
 // game timer that loads when the document page is ready
 
 $(document).ready(function() {

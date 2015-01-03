@@ -14,16 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-
-$(function() {
-	$('.cell').on('click', playGame);
-  var blink = function() {$('.blink').animate({opacity: '1'}, 1000, function(){$(this).animate({opacity: '0'}, blink);});}
-  blink();
-  game.start();
-});
-
-var playGame = function(){
-	var selectedCell = (this.id);
-	game.play(selectedCell);
-}

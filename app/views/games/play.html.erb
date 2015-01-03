@@ -1,36 +1,77 @@
-<script>var triviaConnector = <%= raw(@trivia.to_json) %>;</script>
+<script>
+  var triviaConnector = <%= raw(@trivia.to_json) %>;
 
-<h2>
-	<div id="totalScore">
-		000
+  $(function() {
+		$('.cell').on('click', playGame);
+	  var blink = function() {$('.blink').animate({opacity: '1'}, 1000, function(){$(this).animate({opacity: '0'}, blink);});}
+	  blink();
+	  game.start();
+	});
+
+	function playGame(){
+		//var selectedCell = (this.id);
+	// this sends the inner text
+		// var selectedCell = $(this).html().split('<br>')[0];
+		game.play(this.id);
+	}
+
+	// game timer that loads when the document page is ready
+
+$(document).ready(function() {
+    var maxWidth = 880;
+    var duration = 60000;
+    var timer;
+    var $bar = $('#bar');
+      Horloge(maxWidth);
+      timer = setInterval('Horloge('+maxWidth+')', 10);
+
+      $bar.animate({
+          width: maxWidth
+      }, duration, function() {
+          $(this).css('background-color', 'red');
+          clearInterval(timer);    
+    });
+});
+
+function Horloge(maxWidth) {
+    var w = $('#bar').width();
+    var percent = parseInt((w * 100) / maxWidth);
+}
+</script>
+
+<div id="gamePage">
+	<h2>
+		<div id="totalScore">
+			000
+		</div>
+	</h2>
+
+	<div id="bar"></div>
+
+	<h2>
+		<div id="question">
+		</div>
+	</h2>
+
+	<div class="row">
+		<div class="cell" id="0">0</div>
+		<div class="cell" id="1">1</div>
+		<div class="cell" id="2">2</div>
+		<div class="cell" id="3">3</div>
+		<div class="cell" id="4">4</div>
 	</div>
-</h2>
-
-<div id="bar"></div>
-
-<h2>
-	<div id="question">
+	<div class="row">
+		<div class="cell" id="5">5</div>
+		<div class="cell" id="6">6</div>
+		<div class="cell" id="7">7</div>
+		<div class="cell" id="8">8</div>
+		<div class="cell" id="9">9</div>
 	</div>
-</h2>
-
-<div class="row">
-	<div class="cell" id="0">0</div>
-	<div class="cell" id="1">1</div>
-	<div class="cell" id="2">2</div>
-	<div class="cell" id="3">3</div>
-	<div class="cell" id="4">4</div>
-</div>
-<div class="row">
-	<div class="cell" id="5">5</div>
-	<div class="cell" id="6">6</div>
-	<div class="cell" id="7">7</div>
-	<div class="cell" id="8">8</div>
-	<div class="cell" id="9">9</div>
-</div>
-<div class="row">
-	<div class="cell" id="10">10</div>
-	<div class="cell" id="11">11</div>
-	<div class="cell" id="12">12</div>
-	<div class="cell" id="13">13</div>
-	<div class="cell" id="14">14</div>
+	<div class="row">
+		<div class="cell" id="10">10</div>
+		<div class="cell" id="11">11</div>
+		<div class="cell" id="12">12</div>
+		<div class="cell" id="13">13</div>
+		<div class="cell" id="14">14</div>
+	</div>
 </div>
