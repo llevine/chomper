@@ -38,8 +38,8 @@
 body {
     width: 85%;
     margin: 50px auto;
-/*    background: black;
-*/    cursor: default;
+    background: black;
+    cursor: default;
 }
 
 #header {
@@ -80,22 +80,10 @@ body {
     text-align: center;
 }
 
-h2 {
-    color: red;
-    text-align: center;
-
-}
-
-#totalScore {
-    display: block;
-/*    margin-top: -50px;
-*/}
-
-.row {
-    display: table;
+#gameBoard {
     width: 880px;
-/*    height: 176px;*/
     margin: 0 auto;
+    display: table;
 }
 
 .cell {
@@ -103,8 +91,7 @@ h2 {
     vertical-align: middle;
     width: 160px;
     height: 160px;
-/*    background: #ebe6e1;
-*/  margin: 250px;
+    margin: 250px;
     border-radius: 5px;
     border: 3px solid #e0d9d2;
 
@@ -113,10 +100,33 @@ h2 {
     font-size: 18px;
 }
 
+.inactiveCell, .correctCell {
+    background: red;
+    cursor: default;
+}
+
+.correctCell {
+    background: #82ff05;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+#question {
+    height: 2.25em;
+}
+
 /*-----------------EVENT HANDLERS ------------------*/
 .cell:hover {
-    cursor: pointer; cursor: hand;
+    cursor: pointer; 
+    cursor: hand;
     border: 3px solid #82ff05;
+}
+
+.inactiveCell:hover, .correctCell:hover {
+    border: 3px solid #e0d9d2;
 }
 
 /*shows what fields have errors in a form, if the form page doesn't save and is rerendered*/

@@ -1,9 +1,12 @@
-//+ Jonas Raoni Soares Silva
-//@ http://jsfromhell.com/array/shuffle [v1.0]
-function shuffle(o){ //v1.0
+// shuffle function. takes allTrivia's indexes, shuffles them and returns a shuffled array.
+function shuffle(o){
     for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 };
+
+// ///////////////////////////////////////////////////////////////////////////////////////// //
+
+// triviaConnector is a variable that is created on play.html.erb it is how I recieve the information from the api.
 
 function Board(){
 	this.allTrivia = [];
@@ -11,57 +14,49 @@ function Board(){
 	this.currentQuestion = {};
 	this.totalScore = 0;
 	this.numAsked = 0;
+	this.gameOver = false;
 }
 
 Board.prototype.createBoard = function(){
 	for (var i=0; i<triviaConnector.length; i++){
-		// creates a new cell object and sets value of that object to a random trivia answer
+		// creates a new cell object. populates it with the question, answer, and value from the api. Then it pushes the cell to an array called allTrivia. All Trivia holds all cells.
 		var cell = new Cell;
-		cell.setState(triviaConnector[i]);
-
-		// adds a question an answer object to an array	
+		cell.setState(triviaConnector[i]);	
 		this.allTrivia.push(cell);
-		// console.log(this.allTrivia);
 	}
 
+	// indices is an array that holds numbers 0 - 14 in it.
 	var indices = [];
-	for (var i = 0; i < triviaConnector.length; i++) indices.push(i);
-	this.triviaIndices = shuffle(indices)
+	for (var i=0; i<this.allTrivia.length; i++){
+		indices.push(i);
+	}
+
+	// shuffles all the numbers in the array indices and sets the newly shuffled array to the variable this.triviaIndices
+	this.triviaIndices = shuffle(indices);
 }
 
 Board.prototype.getTriviaQuestion = function(){
-	// console.log(this.allTrivia.length);
+	// this.numAsked keeps track of how many questions have been asked. As long as that number is less than this.allTrivia.length which is 15 questions can be asked.
 	if (this.numAsked < this.allTrivia.length){
-		// returns a random number
-		// var index = Math.floor(Math.random() * (this.allTrivia.length));
-		// returns a random trivia question at the random index number chosen above
+		// I take the current question number, and go into the shuffled array of questions indexes and return that number and set it to the variable index.
 		var index = this.triviaIndices[this.numAsked];
-		//if (this.allTrivia[index].active == true){
-			this.currentQuestion = this.allTrivia[index];
-			alert(this.allTrivia[index].active);
-			alert(this.currentQuestion.trivia.answer);
-			this.currentIndex = index;
-		//}
-		//else {
-		//	this.getTriviaQuestion();
-		//}
-		// // removes the trivia question from the array and saves it to the variable removed
-		// var removed = this.allTrivia.splice(index, 1);
-		// // adds the removed question to a solved array
-		// this.allSolved.unshift(removed[0]);
+		// the current question is then set.
+		this.currentQuestion = this.allTrivia[index];
+		alert(this.currentQuestion.trivia.answer);
+		this.currentIndex = index;
+		// renders the question on the page
+		$("#question").html(this.currentQuestion.trivia.question);
 	}
-	else {
-		// maybe move the above if statement to the game page as a game over scenerio checker...
-		console.log('game over');
-	}
-	this.allTrivia[index].render();
-	$("#question").html(this.currentQuestion.trivia.question);
+	// else {
+	// 	// IF NO CELLS ARE LEFT SHOULD I RELOAD PAGE TO ADD MORE QUESTIONS IF TIMER IS STILL NOT DONE? OR SHOULD I CLEAR THE PAGE AND SAY GAME OVER???????????? 
+	// 	console.log('game over');
+	// }
 }
 
 
 // i need chosen cell to be the answer phrase that's in the clicked div. and i want to compare it to index 0 of the this.solved array answer
 Board.prototype.makePlay = function(userGuess){
-	  alert("current index: " + this.currentIndex + " userGuess: " + userGuess);
+	  //alert("current index: " + this.currentIndex + " userGuess: " + userGuess);
 	  if (this.currentIndex == userGuess) {
 		//if (this.currentQuestion.trivia.answer === userGuess){
 			this.totalScore += this.currentQuestion.trivia.pointValue;
@@ -69,26 +64,24 @@ Board.prototype.makePlay = function(userGuess){
 			this.numAsked++;
 			this.getTriviaQuestion();
 			// need to access this userGuess cells css property to access render red...
-			$("#" + userGuess).css('background', 'gray');
-			$("#" + userGuess).css('cursor', 'default');
+
+			this.allTrivia[userGuess].active = false;
+			this.allTrivia[userGuess].render(userGuess);
 		}
 		else {
-			this.totalScore -= this.currentQuestion.trivia.pointValue/2;
+			this.totalScore -= this.currentQuestion.trivia.pointValue;
 		}
 		$("#totalScore").html(this.totalScore);
 }
 
 Board.prototype.checkOver = function(){
-	if (this.allTrivia.length === 0){
-		return true;
-	}
-	else {
-		return false;
+	if (this.numAsked === 15 || this.totalScore <= -1000){	
+		return this.gameOver = true;
 	}
 }
 
-Board.prototype.render = function(){
+Board.prototype.renderBoard = function(){
 	for (var i = 0; i < this.allTrivia.length; i++) {
-		$("#" + i).html(this.allTrivia[i].trivia.answer + "<br>" + this.allTrivia[i].trivia.pointValue);
+		this.allTrivia[i].render(i);
 	}
 }

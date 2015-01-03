@@ -8,11 +8,14 @@ Cell.prototype.setState = function(t){
 		this.trivia = {question: t.question, answer: t.answer, pointValue: t.value};	
 }
 
-Cell.prototype.render = function(){
-	if (this.active === true){
-		this.trivia;
+Cell.prototype.render = function(cell){
+	if (this.active == false) {
+		$("#" + cell).addClass('correctCell').css('cursor', 'default').off('click', playGame);
 	}
 	else {
-		$(this).css('background', 'red');
+		// alert(this.trivia[cell].answer);
+		$("#" + cell).html(this.trivia.answer + "<br>" + this.trivia.pointValue);
 	}
 }
+
+			

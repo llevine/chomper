@@ -1,5 +1,3 @@
-gameOver = false;
-
 var game = {
 	setupGame: function() {
 		this.board = new Board();
@@ -8,14 +6,16 @@ var game = {
 		this.setupGame();
 		// populates board with answers
 		this.board.createBoard();
-		this.board.render();
+		this.board.renderBoard();
 		this.board.getTriviaQuestion();
 	},
 	play: function(position) {
-		// alert(this.text);
-		alert(position);
 		this.board.makePlay(position);
-		// var elem = $(this);
-		// e.data.current_game.board.makePlay(elem.html().split("<br>")[0]);
+		this.board.checkOver();
+		if (this.board.gameOver){
+			$(".cell").addClass('inactiveCell').css('cursor', 'default').off('click', playGame);
+			$("#question").html('GAMEOVER');
+		}
+
 	}
 };

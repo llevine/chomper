@@ -8,24 +8,17 @@ class GamesController < ApplicationController
 	end
 
 	def playGame
-		# @game = Game.create(params[:category])
-		# @game.user = current_user
 		gameType = params[:category]
-		puts "****** CATEGORY: #{gameType}"
 
 		# same as a long if statement
 		case gameType
-		when "invention"
-			puts "***** gameType is invention"
-			@trivia = TriviaWrapper.getInventionTrivia()
-		when "movie"
-			puts "***** gameType is movie"
-			@trivia = TriviaWrapper.getMovieTrivia()
-		else
-			puts "***** gameType is not a game type"
-			@trivia = nil
+			when "invention"
+				@trivia = TriviaWrapper.getInventionTrivia()
+			when "movie"
+				@trivia = TriviaWrapper.getMovieTrivia()
+			else
+				@trivia = nil
 		end
-		puts "******* TRIVIA: #{@trivia}"
 		render :play
 	end
 
