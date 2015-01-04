@@ -17,7 +17,11 @@
 
    <div class="input">
     <%= f.label :birthday %>
-    <%= f.text_field :birthday, :value => "mm/dd/yyyy"  %>
+    <% if session[:current_user_id] %>
+      <%= f.text_field :birthday, :value => current_user.birthday %>
+    <% else %>
+      <%= f.text_field :birthday, :value => "mm/dd/yyyy"  %>
+    <% end %>
   </div>
 
 <% if edit %>
@@ -53,4 +57,7 @@
 <% end %>
 
   <%= f.submit "Submit", :id=>"submit" %>
+  <span id="cancel">
+    <%= link_to "Cancel", login_path %>
+  </span>
 <% end %>

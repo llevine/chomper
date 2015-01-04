@@ -47,10 +47,6 @@ Board.prototype.getTriviaQuestion = function(){
 		// renders the question on the page
 		$("#question").html(this.currentQuestion.trivia.question);
 	}
-	// else {
-	// 	// IF NO CELLS ARE LEFT SHOULD I RELOAD PAGE TO ADD MORE QUESTIONS IF TIMER IS STILL NOT DONE? OR SHOULD I CLEAR THE PAGE AND SAY GAME OVER???????????? 
-	// 	console.log('game over');
-	// }
 }
 
 
@@ -67,6 +63,7 @@ Board.prototype.makePlay = function(userGuess){
 
 			this.allTrivia[userGuess].active = false;
 			this.allTrivia[userGuess].render(userGuess);
+			$("#totalScore").html(this.totalScore);
 		}
 		else {
 			//this removes a live. user has a total of 3 lives
@@ -76,7 +73,6 @@ Board.prototype.makePlay = function(userGuess){
 			//this lowers the score by the point value of the wrong answer chosen
 			//this.totalScore -= this.allTrivia[userGuess].trivia.pointValue;
 		}
-		$("#totalScore").html(this.totalScore);
 }
 
 Board.prototype.checkOver = function(){
@@ -87,12 +83,7 @@ Board.prototype.renderBoard = function(){
 	for (var i = 0; i < this.allTrivia.length; i++) {
 		this.allTrivia[i].render(i);
 	}
-	$('#gamePage').append("<a href='/games/new' class='button blink' id='endGame'>End Game</a>");
-		
-	$("#0").prepend("<img src='http://i.imgur.com/Vy9uacp.png' id='chomper'>");
-	$("#totalScore").html(this.totalScore);
-
 	for (var i=1; i<=3; i++){
-		$("#life" + i).html("<img src='http://i.imgur.com/Vy9uacp.png'>");
+		$("#life" + i).html("<img src='http://i.imgur.com/LbT1Y5P.png' class='life'>");
 	}
 }

@@ -7,8 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<h1 id="header">Welcome To Brain Chomper</h1>
-
+	<!-- <h1 id="header">Welcome To Brain Chomper</h1> -->
+	<img src="http://i.imgur.com/OFA9ov7.png" id="header">
+	
+	<div id="navBar">
+		<% if session[:current_user_id] %> 
+		<%= link_to "My Scorecard", user_path(current_user) %> | <%= link_to "Log Out", sessions_path, method: :delete %> | <%= link_to "Play!", new_game_path %>
+		<% end %>
+	</div>
 <%= yield %>
 
 </body>

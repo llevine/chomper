@@ -16,6 +16,10 @@ class GamesController < ApplicationController
 				@trivia = TriviaWrapper.getInventionTrivia()
 			when "movie"
 				@trivia = TriviaWrapper.getMovieTrivia()
+			when "politic"
+				@trivia = TriviaWrapper.getPoliticTrivia()
+			when "baseball"
+				@trivia = TriviaWrapper.getBaseballTrivia()
 			else
 				@trivia = nil
 		end

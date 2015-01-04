@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  root 'games#index'
+  root 'sessions#new'
   
   get 'sessions/new' => 'sessions#new', as: 'login'
   post 'sessions'    => 'sessions#create'
   delete 'sessions'  => 'sessions#destroy'
 
-  resources :users
+  resources :users, except: [:index]
 
   get 'games/playGame' => 'games#playGame'
   resources :games, except: [:edit, :update]

@@ -1,20 +1,19 @@
 <div class="main_content user">
-	<div class="bio">
-		<h1><%= @user.username %>'s Profile</h1>
+	
+		<h1 style="margin-top: -5px;">Scorecard</h1>
+		<p style="text-align: center; margin-top: -20px; color: grey;">Last Logged In: <%= @user.updated_at %></p>
 		<img src="<%= @user.avatar %>">
-		<% if current_user == @user %>
-			<%= link_to "Edit User", edit_user_path(@user) %>
-		<% end %>
-		<h2><%= @user.first_name %><br>
-		<%= @age %> years old</h2>
-		<p>Last Logged In: <%= @user.updated_at %></p>
+		
+<div class="bio" style="text-align: left;">
 		<div>
-			<h2>scoreboard</h2>
-			<p>HIGHSCORES</p>
+			<h2>Scoreboard</h2>
+			<hr>
+			<ol id="highscores"></ol>
 		</div>
 
 		<div>
 			<h2>Saved Questions</h2>
+			<hr>
 			<ul>
 				<% SavedQuestion.where("user_id = ?", current_user.id).each do |sq| %>
 				  <li><%= sq.question %> -> <%= sq.answer %></li>

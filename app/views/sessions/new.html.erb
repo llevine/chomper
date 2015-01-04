@@ -1,4 +1,4 @@
-<div class="form splash" id="signup">
+<div class="form splash" id="login">
 
 	<h1>Log In</h1>
 
@@ -17,6 +17,10 @@
 		<p class="new_board_error"><%= flash[:new_board_error] %></p>
 	<% end %>
 
+
+	<h4 id="signup">
+		<%= link_to "Sign-Up", new_user_path %>
+	<h4>
 	<hr>
 	<%= render 'form' %> 
 		
