@@ -3,6 +3,7 @@
 		<h1 style="margin-top: -5px;">Scorecard</h1>
 		<p style="text-align: center; margin-top: -20px; color: grey;">Last Logged In: <%= @user.updated_at %></p>
 		<img src="<%= @user.avatar %>">
+		<%= link_to "Edit User", edit_user_path(@user) %>
 		
 <div class="bio" style="text-align: left;">
 		<div>

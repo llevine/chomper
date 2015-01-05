@@ -32,7 +32,7 @@
 <% else %>
   <div class="input">
     <%= f.label :avatar %>
-    <%= f.text_field :avatar, :value => 'http://www.placecage.com/200/200' %>
+    <%= f.text_field :avatar, :value => 'https://placeholdr-app.herokuapp.com/boards/15/200/200' %>
  </div> 
 <% end %>
 
@@ -50,14 +50,44 @@
   </div>
 <% end %>
 
-<% if delete %>
-  <div class="input" id="delete">
-    <%= link_to "Delete User", user_path(@user), method: :delete %>
+  <div id='characters'>
+    <h2>Choose Your Chomper!</h2>
+    <div class='radioCombo'>
+      <img src='http://i.imgur.com/ZyF5VWM.png'><br>
+      <%= f.radio_button(:chomper, "http://i.imgur.com/ZyF5VWM.png") %><br>
+    </div>
+
+    <div class='radioCombo'>
+      <img src='http://i.imgur.com/xt8U22z.png'><br>
+      <%= f.radio_button(:chomper, "http://i.imgur.com/xt8U22z.png") %>
+    </div>
+
+    <div class='radioCombo'>
+      <img src='http://i.imgur.com/CIVVuQd.png'><br>
+      <%= f.radio_button(:chomper, "http://i.imgur.com/CIVVuQd.png") %>
+    </div>
+
+    <div class='radioCombo'>
+      <img src='http://i.imgur.com/AGd1G79.png'><br>
+      <%= f.radio_button(:chomper, "http://i.imgur.com/AGd1G79.png") %>
+    </div>
+
+    <div class='radioCombo'>
+      <img src='http://i.imgur.com/VBGfDmw.png'><br>
+      <%= f.radio_button(:chomper, "http://i.imgur.com/VBGfDmw.png") %>
+    </div>
   </div>
-<% end %>
 
   <%= f.submit "Submit", :id=>"submit" %>
+ 
   <span id="cancel">
-    <%= link_to "Cancel", login_path %>
+    <% if session[:current_user_id] %>
+      <%= link_to "Cancel", user_path(@user) %>  | 
+    <% else %>
+     <%= link_to "Cancel", login_path %>
+    <% end %>
+    <% if delete %>
+      <%= link_to "Delete User", user_path(@user), method: :delete %>
+    <% end %>
   </span>
 <% end %>

@@ -5,6 +5,7 @@
 	<% if @user.errors.any? %>
 	    <h3 style="color:red">Please fix the appropriate fields:</h3>
 	<% end %>
+
 	<%= render partial: 'form', locals: { new_user: true, delete: false, edit: false } %>
 
 </div>

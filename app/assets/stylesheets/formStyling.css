@@ -100,6 +100,19 @@ span#cancel {
     color: black;
 }
 
+#characters {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.radioCombo {
+    display: inline-block;  
+}
+
+.radioCombo img {
+    max-width: 100px;
+}
 
 /*-------EVENT HANDLERS------*/
 
