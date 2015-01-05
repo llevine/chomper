@@ -14,6 +14,7 @@ var game = {
 			$("#question").html('GAMEOVER');
 			$('#gameBoard').append("<a href='/games/new' class='button blink' style='z-index: 2; position: relative; top: -280px; margin: 0 auto;'>New Game!</a>");
 			$('#endGame').remove();
+			saveGame();
 		}
 	}
 };
@@ -24,5 +25,14 @@ function saveQuestion() {
 		{ question: game.board.currentQuestion.trivia.question, answer : game.board.currentQuestion.trivia.answer}, 
     function(returnedData){
          alert("question saved!");
+  });
+}
+
+function saveGame() {
+  alert("tryign to save game");
+	$.post('/games', 
+		{ category: game.category, score: game.board.totalScore}, 
+		function(returnedData){
+         alert("game saved!");
   });
 }

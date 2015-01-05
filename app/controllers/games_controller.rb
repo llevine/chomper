@@ -8,10 +8,10 @@ class GamesController < ApplicationController
 	end
 
 	def playGame
-		gameType = params[:category]
+		@gameType = params[:category]
 
 		# same as a long if statement
-		case gameType
+		case @gameType
 			when "invention"
 				@trivia = TriviaWrapper.getInventionTrivia()
 			when "movie"
@@ -26,7 +26,14 @@ class GamesController < ApplicationController
 		render :play
 	end
 
-	def destroy
+	def create
+		puts "********inside games controller create********"
+		g = Game.create(
+			user_id: current_user.id,
+			score: params[:score],
+			category: params[:category],
+		)
+		render json: { "success" => g.valid? }
 	end
 
 	def saveQuestion

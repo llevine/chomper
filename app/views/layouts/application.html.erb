@@ -12,7 +12,10 @@
 	
 	<div id="navBar">
 		<% if session[:current_user_id] %> 
-		<%= link_to "My Scorecard", user_path(current_user) %> | <%= link_to "Log Out", sessions_path, method: :delete %> | <%= link_to "Play!", new_game_path %>
+		<%= link_to "My Scorecard", user_path(current_user) %> |
+		<%= link_to "Log Out", sessions_path, method: :delete %> |
+		<%= link_to "Play!", new_game_path %> |
+		<%= link_to "High Scores", users_path %>
 		<% end %>
 	</div>
 <%= yield %>

@@ -1,0 +1,11 @@
+<div>
+	<h2>High Scores</h2>
+	<hr>
+	<ol id="highscores">
+		<% Game.order(score: :desc).limit(20).each do |g| %>
+			<li>
+				Category: <%= g.category %>, Score: <%= g.score %>, User: <%= g.user.username %>
+			</li>
+		<% end %>
+	</ol>
+</div>

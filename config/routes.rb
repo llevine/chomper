@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   post 'sessions'    => 'sessions#create'
   delete 'sessions'  => 'sessions#destroy'
 
-  resources :users, except: [:index]
+  resources :users
 
   get 'games/playGame' => 'games#playGame'
   resources :games, except: [:edit, :update]

@@ -2,17 +2,21 @@
   var triviaConnector = <%= raw(@trivia.to_json) %>;
 
   $(function() {
+  	var chomperCurrentLocation = 0;
 	  var blink = function() {$('.blink').animate({opacity: '1'}, 1000, function(){$(this).animate({opacity: '0'}, blink);});}
 	  blink();
+	  alert("chomperCurrentLocation: " + chomperCurrentLocation);
 	  game.start();
+	  game.category = '<%= @gameType %>';
 
 	  // this line adds event listeners to all cells and runs the playGame function if cell is clicked. 
-	  // $('.cell').on('click', playGame);
+	  //$('.cell').on('click', playGame);
 	  
-	  var chomperCurrentLocation = 0;
+
+	  // var character = "<img src='<%= current_user.chomper %>' id='chomper'>";
 	  var character = "<img src='http://i.imgur.com/xt8U22z.png' id='chomper'>";
-	  // var freeze = false;
-	  $('#0').prepend("<img src='http://i.imgur.com/xt8U22z.png' id='chomper'>");
+	  var freeze = false;
+	  $('#0').append(character);
 		$(document).keydown(function(e) {
 			
 			if (chomperCurrentLocation < 15 && chomperCurrentLocation >= 0){
@@ -71,23 +75,23 @@
 	        break;
 
 	        case 13: //enter key
-	          // if (!freeze) {
+	          if (!freeze) {
 	        	  playGame(chomperCurrentLocation);
-	        	//   freeze = true;
-	        	// }
+	        	  freeze = true;
+	        	}
 	        break;
 
-	        default: return; // exit this handler for other keys
-	    }
+	        default: break; // exit this handler for other keys
+	      }
 	    
-	    e.preventDefault(); // prevent the default action (scroll / move caret)
+	      e.preventDefault(); // prevent the default action (scroll / move caret)
   		}
 		});
 	});
 
-	        	function playGame(position){
-							game.play(position);
-						}
+	function playGame(position){
+		game.play(position);
+	}
 
 	// function playGame(){
 	// 	game.play(this.id);

@@ -77974,3 +77974,3401 @@ Processing by GamesController#new as HTML
   Rendered games/new.html.erb within layouts/application (0.5ms)
   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
 Completed 200 OK in 95ms (Views: 93.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 15:36:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (90.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (2.6ms)
+  Rendered sessions/new.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 418ms (Views: 383.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (0.7ms)
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 115ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 15:36:55 -0500
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ=", "username"=>"mhuang", "password"=>"[FILTERED]", "commit"=>"Submit!"}
+  [1m[35mUser Load (51.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'mhuang' LIMIT 1
+Redirected to http://localhost:3000/games
+Completed 302 Found in 246ms (ActiveRecord: 92.6ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (16.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 121ms (Views: 102.9ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:27 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.3ms)
+  Rendered sessions/new.html.erb within layouts/application (21.9ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+Completed 200 OK in 101ms (Views: 98.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:33 -0500
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ=", "username"=>"mhuang", "password"=>"[FILTERED]", "commit"=>"Submit!"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."username" = 'mhuang' LIMIT 1[0m
+Redirected to http://localhost:3000/games
+Completed 302 Found in 89ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+Completed 200 OK in 76ms (Views: 74.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:43 -0500
+
+
+Started DELETE "/sessions" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (0.6ms)
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:45:51 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-04 16:45:58 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (99.2ms)
+  Rendered users/new.html.erb within layouts/application (152.5ms)
+Completed 200 OK in 226ms (Views: 225.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-01-04 16:46:01 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.3ms)
+  Rendered sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 85ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-01-04 16:46:03 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ=", "username"=>"llevine", "password"=>"[FILTERED]", "commit"=>"Submit!"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."username" = 'llevine' LIMIT 1[0m
+  Rendered sessions/_form.html.erb (0.6ms)
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 163ms (Views: 73.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:04 -0500
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-01-04 16:46:05 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ=", "username"=>"batman", "password"=>"[FILTERED]", "commit"=>"Submit!"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'batman' LIMIT 1
+Redirected to http://localhost:3000/games
+Completed 302 Found in 82ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 73ms (Views: 71.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:46:06 -0500
+
+
+Started GET "/users/5" for 127.0.0.1 at 2015-01-04 16:46:28 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mSavedQuestion Load (35.7ms)[0m  SELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 5)
+  Rendered users/show.html.erb within layouts/application (62.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 149ms (Views: 108.3ms | ActiveRecord: 38.9ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 16:46:43 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=baseball" for 127.0.0.1 at 2015-01-04 16:46:53 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"baseball"}
+  Rendered games/play.html.erb within layouts/application (4.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 15278ms (Views: 96.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=baseball" for 127.0.0.1 at 2015-01-04 16:47:08 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"baseball"}
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 1797ms (Views: 76.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/playGame?category=politic" for 127.0.0.1 at 2015-01-04 16:47:10 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"politic"}
+  Rendered games/play.html.erb within layouts/application (3.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 2769ms (Views: 86.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:47:13 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 599ms (Views: 91.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:47:13 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+Completed 500 Internal Server Error in 75863ms
+
+Errno::ETIMEDOUT (Operation timed out - connect(2) for "jservice.io" port 80):
+  app/models/trivia_wrapper.rb:81:in `getMovieTrivia'
+  app/controllers/games_controller.rb:18:in `playGame'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.6ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 16:48:29 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (2.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 82ms (Views: 77.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 16:48:29 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 82ms (Views: 81.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 16:48:29 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 16:48:30 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (0.7ms)
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:48:30 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1292ms (Views: 77.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:48:31 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:49:22 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 9154ms (Views: 124.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:49:31 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:50:43 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1298ms (Views: 91.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:50:44 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:50:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:50:59 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:50:59 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:51:43 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 1348ms (Views: 143.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:51:45 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:52:27 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (2.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1133ms (Views: 183.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:52:28 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 682ms (Views: 109.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:52:53 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:53:05 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1463ms (Views: 116.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:07 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:53:21 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (2.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 499ms (Views: 96.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:53:22 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:54:20 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (2.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 2000ms (Views: 99.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.6ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 574ms (Views: 116.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 16:54:22 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to RefactorTables (20150104221309)
+  [1m[35m (16.5ms)[0m  BEGIN
+  [1m[36m (207.6ms)[0m  [1mALTER TABLE "games" DROP "chomper"[0m
+  [1m[35m (38.0ms)[0m  ALTER TABLE "users" ADD COLUMN "chomper" character varying(255)
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "games" DROP "question"[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "games" DROP "answer"
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "games" ADD COLUMN "user_id" integer[0m
+  [1m[35m (25.5ms)[0m  DROP TABLE "users_games"
+PG::UndefinedTable: ERROR:  table "users_games" does not exist
+: DROP TABLE "users_games"
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to RefactorTables (20150104221309)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (1.1ms)[0m  [1mALTER TABLE "games" DROP "chomper"[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "users" ADD COLUMN "chomper" character varying(255)
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "games" DROP "question"[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "games" DROP "answer"
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "games" ADD COLUMN "user_id" integer[0m
+  [1m[35m (87.5ms)[0m  DROP TABLE "games_users"
+  [1m[36mSQL (33.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20150104221309"]]
+  [1m[35m (34.8ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 17:24:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (2.3ms)
+  Rendered sessions/new.html.erb within layouts/application (34.8ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 500ms (Views: 468.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 17:24:54 -0500
+
+
+Started DELETE "/sessions" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (0.7ms)
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 74ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 17:25:01 -0500
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ=", "username"=>"batman", "password"=>"[FILTERED]", "commit"=>"Submit!"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."username" = 'batman' LIMIT 1[0m
+Redirected to http://localhost:3000/games
+Completed 302 Found in 154ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 125ms (Views: 121.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 17:25:06 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 17:25:10 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 138ms (Views: 136.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 17:25:12 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (3.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 2200ms (Views: 334.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 17:40:25 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (3.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1226ms (Views: 360.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 17:40:26 -0500
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 17:40:58 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (3.8ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 2537ms (Views: 89.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 17:41:00 -0500
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 17:41:35 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"invention", "score"=>"900"}
+Completed 500 Internal Server Error in 79ms
+
+ActionView::MissingTemplate (Missing template games/create, application/create with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/laurenlevine/Repos/chomper/app/views"
+):
+  actionview (4.1.7) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.7) lib/action_view/lookup_context.rb:124:in `find'
+  actionview (4.1.7) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.1.7) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.7) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.7) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.7) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.7) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.7) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.7) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.7) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.7) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.7) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.7) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.7) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.7) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.7) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.7) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.7) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.7) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.7) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.7) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.7) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.7) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.7) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.7) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.7) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.7) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.7) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.7) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.7) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.7) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.7) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.7) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/missing_template.text.erb (1.0ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 17:42:36 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 57816ms (Views: 150.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 17:43:34 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 709ms (Views: 74.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 17:43:34 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1466ms (Views: 83.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 17:43:37 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 2926ms (Views: 78.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 17:43:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 17:43:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 17:43:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 17:43:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 17:43:40 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 17:43:40 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 17:43:40 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 17:43:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 17:43:40 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 17:43:40 -0500
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 17:44:01 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"invention", "score"=>"800"}
+Completed 500 Internal Server Error in 8ms
+
+ActionView::MissingTemplate (Missing template games/create, application/create with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/laurenlevine/Repos/chomper/app/views"
+):
+  actionview (4.1.7) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.7) lib/action_view/lookup_context.rb:124:in `find'
+  actionview (4.1.7) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.1.7) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.7) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.7) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.7) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.7) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.7) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.7) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.7) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.7) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.7) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.7) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.7) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.7) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.7) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.7) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.7) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.7) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.7) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.7) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.7) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.7) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.7) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.7) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.7) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.7) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.7) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.7) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.7) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.7) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.7) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.7) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/missing_template.text.erb (0.6ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 17:47:30 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1183ms (Views: 163.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 17:47:31 -0500
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 17:47:52 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"invention", "score"=>"1500"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mGame Load (84.6ms)[0m  SELECT "games".* FROM "games"  WHERE "games"."user_id" = $1  [["user_id", 5]]
+  [1m[36mGame Load (1.3ms)[0m  [1mSELECT "games".* FROM "games"[0m
+
+
+Started GET "/users/5" for 127.0.0.1 at 2015-01-04 17:52:41 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mSavedQuestion Load (0.6ms)[0m  SELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 5)
+  Rendered users/show.html.erb within layouts/application (28.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 189ms (Views: 182.3ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2015-01-04 17:56:24 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mSavedQuestion Load (0.4ms)[0m  SELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 5)
+  Rendered users/show.html.erb within layouts/application (26.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 222ms (Views: 182.4ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 17:56:28 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 116ms (Views: 114.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 17:56:30 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (3.6ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 1028ms (Views: 140.0ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 17:57:01 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"invention", "score"=>"500"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (99.1ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "invention"], ["created_at", "2015-01-04 22:57:02.122078"], ["score", 500], ["updated_at", "2015-01-04 22:57:02.122078"], ["user_id", 5]]
+  [1m[36m (842.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 1134ms (Views: 0.2ms | ActiveRecord: 944.3ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 17:57:06 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"invention", "score"=>"700"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "invention"], ["created_at", "2015-01-04 22:57:06.261618"], ["score", 700], ["updated_at", "2015-01-04 22:57:06.261618"], ["user_id", 5]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 2.7ms)
+  [1m[35mGame Load (1.1ms)[0m  SELECT "games".* FROM "games"
+  [1m[36mGame Load (0.7ms)[0m  [1mSELECT  "games".* FROM "games"   ORDER BY "games"."id" DESC LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mGame Load (0.6ms)[0m  [1mSELECT "games".* FROM "games"  WHERE "games"."user_id" = $1[0m  [["user_id", 5]]
+
+
+Started GET "/users/5" for 127.0.0.1 at 2015-01-04 18:01:50 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mGame Load (0.4ms)[0m  SELECT "games".* FROM "games"  WHERE "games"."user_id" = $1  [["user_id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mSavedQuestion Load (0.4ms)[0m  SELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 5)
+  Rendered users/show.html.erb within layouts/application (80.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 244ms (Views: 240.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2015-01-04 18:02:09 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mGame Load (0.4ms)[0m  SELECT "games".* FROM "games"  WHERE "games"."user_id" = $1  [["user_id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mSavedQuestion Load (1.8ms)[0m  SELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 5)
+  Rendered users/show.html.erb within layouts/application (8.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 97ms (Views: 91.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:02:10 -0500
+
+
+Started GET "/users/5" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games"  WHERE "games"."user_id" = $1  [["user_id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mSavedQuestion Load (0.4ms)[0m  SELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 5)
+  Rendered users/show.html.erb within layouts/application (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 150ms (Views: 147.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:05:56 -0500
+
+
+Started GET "/users/5" for 127.0.0.1 at 2015-01-04 18:06:20 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games"  WHERE "games"."user_id" = $1  [["user_id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mSavedQuestion Load (0.4ms)[0m  SELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 5)
+  Rendered users/show.html.erb within layouts/application (4.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 96ms (Views: 93.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:21 -0500
+
+
+Started GET "/users/5" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games"  WHERE "games"."user_id" = $1  [["user_id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mSavedQuestion Load (0.4ms)[0m  SELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 5)
+  Rendered users/show.html.erb within layouts/application (38.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 161ms (Views: 123.1ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:06:35 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-04 18:06:38 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Games):
+    2: 	<h2>High Scores</h2>
+    3: 	<hr>
+    4: 	<ol id="highscores">
+    5: 		<% Games.order(score: :desc).limit(20).each do |g| %>
+    6: 			<li>
+    7: 				Category: <%= g.category %>, Score: <%= g.score %>, User: <%= g.user.username %>
+    8: 			</li>
+  app/views/users/index.html.erb:5:in `_app_views_users_index_html_erb__1645819694790216277_70192093223820'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-04 18:06:38 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Games):
+    2: 	<h2>High Scores</h2>
+    3: 	<hr>
+    4: 	<ol id="highscores">
+    5: 		<% Games.order(score: :desc).limit(20).each do |g| %>
+    6: 			<li>
+    7: 				Category: <%= g.category %>, Score: <%= g.score %>, User: <%= g.user.username %>
+    8: 			</li>
+  app/views/users/index.html.erb:5:in `_app_views_users_index_html_erb__1645819694790216277_70192066437520'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-04 18:07:46 -0500
+Processing by UsersController#index as HTML
+  [1m[35mGame Load (1.0ms)[0m  SELECT  "games".* FROM "games"   ORDER BY "games"."score" DESC LIMIT 20
+  Rendered users/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    4: 	<ol id="highscores">
+    5: 		<% Game.order(score: :desc).limit(20).each do |g| %>
+    6: 			<li>
+    7: 				Category: <%= g.category %>, Score: <%= g.score %>, User: <%= g.user.username %>
+    8: 			</li>
+    9: 		<% end %>
+   10: 	</ol>
+  app/views/users/index.html.erb:7:in `block in _app_views_users_index_html_erb__1645819694790216277_70192089123740'
+  app/views/users/index.html.erb:5:in `_app_views_users_index_html_erb__1645819694790216277_70192089123740'
+
+
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/laurenlevine/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.5ms)
+  [1m[35mGame Load (1.1ms)[0m  SELECT "games".* FROM "games"  WHERE "games"."user_id" IS NULL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 1]]
+  [1m[36m (44.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 2]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 3]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 4]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 5]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 6]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 7]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 8]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 9]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 10]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 11]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 12]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 13]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 14]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 15]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 16]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 17]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 18]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 19]]
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 20]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 21]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 22]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 23]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 24]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 25]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 26]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 27]]
+  [1m[36m (12.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 28]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 29]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 30]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 31]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 32]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 33]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 34]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 35]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 36]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 37]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 38]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 39]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 40]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 41]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 42]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 43]]
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 44]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 45]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 46]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 47]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 48]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 49]]
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 50]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 51]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 52]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 53]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 54]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 55]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 56]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 57]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 58]]
+  [1m[35m (2.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 59]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 60]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 61]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 62]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 63]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 64]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 65]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 66]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 67]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 68]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 69]]
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 70]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 71]]
+  [1m[36m (2.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 72]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 73]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 74]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 75]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 76]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 77]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 78]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 79]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 80]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 81]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 82]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 83]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 84]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 85]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 86]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 87]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 88]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 89]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 90]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 91]]
+  [1m[36m (2.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 92]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 93]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 94]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 95]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 96]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 97]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 98]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 99]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (10.5ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 100]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 101]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 102]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 103]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 104]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 105]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 106]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 107]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 108]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 109]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 110]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 111]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 112]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 113]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 114]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (12.7ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 115]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 116]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 117]]
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 118]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 119]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 120]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 121]]
+  [1m[36m (2.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 122]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 123]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 124]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 125]]
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 126]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 127]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 128]]
+  [1m[35m (2.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (11.4ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 129]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 130]]
+  [1m[35m (1.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 131]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 132]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 133]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 134]]
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 135]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 136]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 137]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 138]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 139]]
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 140]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 141]]
+  [1m[36m (2.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 142]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (11.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 143]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 144]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 145]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 146]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 147]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 148]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 149]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 150]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 151]]
+  [1m[36m (2.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 152]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 153]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 154]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 155]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 156]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 157]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.8ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 158]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 159]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 160]]
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 161]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "games" WHERE "games"."id" = $1[0m  [["id", 162]]
+  [1m[35m (2.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "games" WHERE "games"."id" = $1  [["id", 163]]
+  [1m[36m (3.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mGame Load (0.5ms)[0m  SELECT "games".* FROM "games"
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+Processing by UsersController#index as HTML
+  [1m[36mGame Load (0.5ms)[0m  [1mSELECT  "games".* FROM "games"   ORDER BY "games"."score" DESC LIMIT 20[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered users/index.html.erb within layouts/application (3.8ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:08:36 -0500
+
+
+Started DELETE "/sessions" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (0.8ms)
+  Rendered sessions/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 121ms (Views: 120.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:08:44 -0500
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ=", "username"=>"llevine", "password"=>"[FILTERED]", "commit"=>"Submit!"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."username" = 'llevine' LIMIT 1[0m
+Redirected to http://localhost:3000/games
+Completed 302 Found in 85ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 121ms (Views: 119.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:08:51 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:08:54 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 18:08:55 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 1000ms (Views: 81.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:09:12 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"invention", "score"=>"500"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "invention"], ["created_at", "2015-01-04 23:09:12.795797"], ["score", 500], ["updated_at", "2015-01-04 23:09:12.795797"], ["user_id", 6]]
+  [1m[35m (1.3ms)[0m  COMMIT
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2015-01-04 18:09:19 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mGame Load (1.0ms)[0m  [1mSELECT "games".* FROM "games"  WHERE "games"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mSavedQuestion Load (0.5ms)[0m  [1mSELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 6)[0m
+  Rendered users/show.html.erb within layouts/application (8.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 167ms (Views: 162.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-04 18:09:22 -0500
+Processing by UsersController#index as HTML
+  [1m[36mGame Load (0.7ms)[0m  [1mSELECT  "games".* FROM "games"   ORDER BY "games"."score" DESC LIMIT 20[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered users/index.html.erb within layouts/application (5.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 79ms (Views: 76.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:09:31 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 98ms (Views: 97.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:09:32 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 1399ms (Views: 219.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:09:35 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.2ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 711ms (Views: 189.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:09:36 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:09:56 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 18:09:58 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 907ms (Views: 124.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:10:45 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"invention", "score"=>"100"}
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (6.7ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "invention"], ["created_at", "2015-01-04 23:10:45.584929"], ["score", 100], ["updated_at", "2015-01-04 23:10:45.584929"], ["user_id", 6]]
+  [1m[35m (3.0ms)[0m  COMMIT
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 12.2ms)
+  [1m[36mGame Load (0.7ms)[0m  [1mSELECT "games".* FROM "games"[0m
+
+
+Started GET "/games/playGame?category=invention" for 127.0.0.1 at 2015-01-04 18:11:48 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"invention"}
+  Rendered games/play.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 1164ms (Views: 157.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:11:49 -0500
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:12:14 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"invention", "score"=>"400"}
+  [1m[35mUser Load (3.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "invention"], ["created_at", "2015-01-04 23:12:14.668164"], ["score", 400], ["updated_at", "2015-01-04 23:12:14.668164"], ["user_id", 6]]
+  [1m[36m (57.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 69ms (Views: 0.3ms | ActiveRecord: 62.2ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:12:18 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (2.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 221ms (Views: 217.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:12:41 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 2486ms (Views: 110.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:14:02 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 1135ms (Views: 132.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:14:04 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:14:24 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 583ms (Views: 143.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:14:25 -0500
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:14:50 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"800"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:14:50.488964"], ["score", 800], ["updated_at", "2015-01-04 23:14:50.488964"], ["user_id", 6]]
+  [1m[36m (43.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 48ms (Views: 0.2ms | ActiveRecord: 44.0ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:14:53 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 172ms (Views: 171.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:14:55 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 1217ms (Views: 94.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:15:13 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"200"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:15:13.129003"], ["score", 200], ["updated_at", "2015-01-04 23:15:13.129003"], ["user_id", 6]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:15:16 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 117ms (Views: 115.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:15:18 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 705ms (Views: 184.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:17:14 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 738ms (Views: 159.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:17:15 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:18:24 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 1122ms (Views: 163.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:18:26 -0500
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:18:55 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"1700"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:18:55.218472"], ["score", 1700], ["updated_at", "2015-01-04 23:18:55.218472"], ["user_id", 6]]
+  [1m[36m (34.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 39ms (Views: 0.2ms | ActiveRecord: 35.3ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:18:58 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 121ms (Views: 119.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:19:00 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 962ms (Views: 92.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:22:51 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 160ms (Views: 158.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:22:53 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 713ms (Views: 75.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:23:15 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"300"}
+  [1m[35mUser Load (3.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:23:15.162313"], ["score", 300], ["updated_at", "2015-01-04 23:23:15.162313"], ["user_id", 6]]
+  [1m[36m (75.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 84ms (Views: 0.2ms | ActiveRecord: 79.0ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:23:20 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 186ms (Views: 185.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:23:22 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 537ms (Views: 84.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:23:37 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"0"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:23:37.081751"], ["score", 0], ["updated_at", "2015-01-04 23:23:37.081751"], ["user_id", 6]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:23:41 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 106ms (Views: 105.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:23:42 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 1031ms (Views: 66.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:24:05 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"0"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:24:05.694300"], ["score", 0], ["updated_at", "2015-01-04 23:24:05.694300"], ["user_id", 6]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:24:10 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:24:11 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 506ms (Views: 85.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:24:22 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"0"}
+  [1m[35mUser Load (1.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:24:22.246861"], ["score", 0], ["updated_at", "2015-01-04 23:24:22.246861"], ["user_id", 6]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 37ms (Views: 0.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:28:26 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 546ms (Views: 545.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:28:28 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 617ms (Views: 96.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:28:42 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"0"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:28:42.125961"], ["score", 0], ["updated_at", "2015-01-04 23:28:42.125961"], ["user_id", 6]]
+  [1m[36m (36.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 41ms (Views: 0.3ms | ActiveRecord: 37.0ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:28:53 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 109ms (Views: 107.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:28:58 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 1017ms (Views: 134.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:32:48 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 175ms (Views: 173.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:32:52 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:32:54 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (4.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 669ms (Views: 80.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:33:03 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 409ms (Views: 73.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:33:04 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:33:15 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 933ms (Views: 65.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:16 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:33:28 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 1205ms (Views: 248.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:33:29 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:34:03 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.9ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 1201ms (Views: 147.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:34:04 -0500
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:34:41 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 1156ms (Views: 128.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 18:34:42 -0500
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:34:59 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"200"}
+  [1m[35mUser Load (3.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:34:59.048710"], ["score", 200], ["updated_at", "2015-01-04 23:34:59.048710"], ["user_id", 6]]
+  [1m[36m (60.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 73ms (Views: 0.2ms | ActiveRecord: 66.4ms)
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 18:35:00 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 123ms (Views: 121.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 18:35:02 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  Rendered games/play.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Completed 200 OK in 579ms (Views: 73.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:35:51 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"900"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:35:51.839581"], ["score", 900], ["updated_at", "2015-01-04 23:35:51.839581"], ["user_id", 6]]
+  [1m[36m (170.7ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 176ms (Views: 0.2ms | ActiveRecord: 171.5ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 18:35:59 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"1100"}
+  [1m[35mUser Load (3.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (9.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.1ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-04 23:35:59.121442"], ["score", 1100], ["updated_at", "2015-01-04 23:35:59.121442"], ["user_id", 6]]
+  [1m[36m (4.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 26ms (Views: 0.2ms | ActiveRecord: 20.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 19:23:32 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.5ms)
+  Rendered sessions/new.html.erb within layouts/application (76.4ms)
+  [1m[35mUser Load (204.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+Completed 200 OK in 811ms (Views: 605.7ms | ActiveRecord: 204.4ms)
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 19:23:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 19:23:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:35 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 19:23:35 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:35 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:35 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:35 -0500
+
+
+Started DELETE "/sessions" for 127.0.0.1 at 2015-01-04 19:23:41 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 19:23:41 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.2ms)
+  Rendered sessions/new.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 220ms (Views: 219.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 19:23:42 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 19:23:42 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 19:23:42 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:43 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:43 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 19:23:43 -0500
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ=", "username"=>"batman", "password"=>"[FILTERED]", "commit"=>"Submit!"}
+  [1m[36mUser Load (31.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."username" = 'batman' LIMIT 1[0m
+Redirected to http://localhost:3000/games
+Completed 302 Found in 115ms (ActiveRecord: 31.0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+Processing by GamesController#index as HTML
+  Rendered games/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 199ms (Views: 197.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 19:24:21 -0500
+
+
+Started GET "/games/new" for 127.0.0.1 at 2015-01-04 19:24:23 -0500
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/playGame?category=movie" for 127.0.0.1 at 2015-01-04 19:24:25 -0500
+Processing by GamesController#playGame as HTML
+  Parameters: {"category"=>"movie"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered games/play.html.erb within layouts/application (4.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 359ms (Views: 115.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/games" for 127.0.0.1 at 2015-01-04 19:25:04 -0500
+Processing by GamesController#create as */*
+  Parameters: {"category"=>"movie", "score"=>"600"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (12.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (16.7ms)[0m  INSERT INTO "games" ("category", "created_at", "score", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "movie"], ["created_at", "2015-01-05 00:25:04.853735"], ["score", 600], ["updated_at", "2015-01-05 00:25:04.853735"], ["user_id", 5]]
+  [1m[36m (37.9ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 73ms (Views: 0.2ms | ActiveRecord: 67.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-04 19:25:09 -0500
+Processing by UsersController#index as HTML
+  [1m[35mGame Load (0.5ms)[0m  SELECT  "games".* FROM "games"   ORDER BY "games"."score" DESC LIMIT 20
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered users/index.html.erb within layouts/application (16.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 132ms (Views: 129.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2015-01-04 19:25:17 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mGame Load (16.0ms)[0m  [1mSELECT "games".* FROM "games"  WHERE "games"."user_id" = $1[0m  [["user_id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mSavedQuestion Load (0.4ms)[0m  [1mSELECT "saved_questions".* FROM "saved_questions"  WHERE (user_id = 5)[0m
+  Rendered users/show.html.erb within layouts/application (21.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 200 OK in 94ms (Views: 74.8ms | ActiveRecord: 17.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 19:25:22 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (0.8ms)
+  Rendered sessions/new.html.erb within layouts/application (31.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 145ms (Views: 144.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 19:25:23 -0500
+
+
+Started DELETE "/sessions" for 127.0.0.1 at 2015-01-04 19:25:25 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"u/eacoldBrAfLeTdAORwkORU+TqdQ8hllbLLUC6j+wQ="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-04 19:25:25 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (0.7ms)
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500
+
+
+Started GET "/assets/formStyling.css?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500
+
+
+Started GET "/assets/game.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500
+
+
+Started GET "/assets/board.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500
+
+
+Started GET "/assets/cell.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-04 19:25:26 -0500

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150103215908) do
+ActiveRecord::Schema.define(version: 20150104221309) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,17 +26,10 @@ ActiveRecord::Schema.define(version: 20150103215908) do
 
   create_table "games", force: true do |t|
     t.string   "category"
-    t.string   "question"
-    t.string   "answer"
     t.integer  "score"
-    t.string   "chomper"
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
-
-  create_table "games_users", id: false, force: true do |t|
-    t.integer "user_id", null: false
-    t.integer "game_id", null: false
+    t.integer  "user_id"
   end
 
   create_table "saved_questions", force: true do |t|
@@ -56,6 +49,7 @@ ActiveRecord::Schema.define(version: 20150103215908) do
     t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "chomper"
   end
 
 end
