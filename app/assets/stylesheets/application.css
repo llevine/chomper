@@ -44,23 +44,6 @@ body {
         0px 4px 20px rgba( 0,0,0,0.33 );
     width: 750px;
 
-    /*PROBABLY NOTS*/
-    /*font-family: 'Press Start 2P', cursive;*/
-
-    /*MAYBE*/
-    /*font-family: 'Hanalei Fill', cursive;*/
-    /*font-family: 'Underdog', cursive;*/
-    /*font-family: 'Bowlby One SC', cursive;*/
-    /*font-family: 'VT323', cursive;*/
-    
-    /*if change header back to text*/
-/*    font-family: 'Share Tech Mono', cursive;
-    font-size: 50px;
-    letter-spacing: 10px;    
-    line-height: 75px;
-    text-align: center;
-    margin: 0;*/
-
     display: block;
     margin: 0 auto;
 }
@@ -85,11 +68,11 @@ body {
     cursor: pointer; cursor: hand;
 
     text-decoration: none;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', sans-serif;
     text-align: center;
 }
 
-#gamesIndex, #newPage {
+#gamesIndex, #newPage, #userScorecard {
     width: 770px;
     margin: 0 auto;
     text-align: center;
@@ -99,15 +82,19 @@ body {
     padding: 10px;
 }
 
-#gamesIndex h2, #newPage h2 {
+#gamesIndex h2, #newPage h2, #totalScore, #userScorecard h1 {
      /*MAYBE*/
-    /*font-family: 'Hanalei Fill', cursive;*/
-    /*font-family: 'Underdog', cursive;*/
-    font: 40px 'Bowlby One SC', cursive;
-    /*font-family: 'VT323', cursive;*/
+    /*font-family: 'Hanalei Fill', sans-serif;*/
+    /*font-family: 'Underdog', sans-serif;*/
+    font: 40px 'Bowlby One SC', sans-serif;
+    /*font-family: 'VT323', sans-serif;*/
     color: #ef5bf3;
     letter-spacing: 5px;
     margin: 0;
+}
+
+#userScorecard h1 {
+    margin-bottom: 10px;
 }
 
 #newPage .button {
@@ -118,10 +105,28 @@ body {
     margin: 30px auto;
 }
 
+#gamePage h2 {
+    text-align: center;
+}
+
+#gamePage #buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#gamePage .button {
+    background: #54cbed;
+    margin: 0 auto;
+}
+
 #gameBoard {
     width: 880px;
     margin: 0 auto;
 /*    display: table;*/
+}
+
+#gamePage h2>#question {
+    margin-top: -35px;
 }
 
 .cell {
@@ -131,7 +136,8 @@ body {
     height: 160px;
     margin: 250px;
     border-radius: 5px;
-    border: 3px solid #e0d9d2;
+    border: 2px solid #e0d9d2;
+    background: rgba(255, 255, 255, .3);
 
     text-align: center;
     color: #e3799a;
@@ -173,11 +179,6 @@ body {
     background: #82ff05;
 }
 
-/*h2 {
-    text-align: center;
-    font-size: 18px;
-}*/
-
 #question {
     height: 2.25em;
 }
@@ -189,6 +190,7 @@ body {
     border: 1px solid black;
     background: #82ff05;
     border-radius: 3px;
+    margin-top: -20px;
 }
 
 #navBar {
@@ -217,31 +219,22 @@ body {
 
 /*--------USER STYLING-------*/
 
-.user {
-    background: white;
-    padding: 10px;
-}
-
-.user h1 {
-    text-align: center;
-}
-
-.user img {
+#userScorecard img {
     display: block;
     max-width: 175px;
     margin: 0 auto;
 }
 
 /*-----------------EVENT HANDLERS ------------------*/
-.cell:hover {
+/*.cell:hover {
     cursor: pointer; 
     cursor: hand;
     border: 3px solid #82ff05;
-}
+}*/
 
-.inactiveCell:hover, .correctCell:hover {
+/*.inactiveCell:hover, .correctCell:hover {
     border: 3px solid #e0d9d2;
-}
+}*/
 
 /*shows what fields have errors in a form, if the form page doesn't save and is rerendered*/
 .field_with_errors input {

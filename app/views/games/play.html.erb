@@ -5,7 +5,7 @@
   	var chomperCurrentLocation = 0;
 	  var blink = function() {$('.blink').animate({opacity: '1'}, 1000, function(){$(this).animate({opacity: '0'}, blink);});}
 	  blink();
-	  alert("chomperCurrentLocation: " + chomperCurrentLocation);
+	  //alert("chomperCurrentLocation: " + chomperCurrentLocation);
 	  game.start();
 	  game.category = '<%= @gameType %>';
 
@@ -164,6 +164,8 @@ function Horloge(maxWidth) {
 		</div>
 	</div>
 
-	<a href='/games/new' class='button' id='endGame'>End Game</a>
-	<a class="button" onclick="saveQuestion();">Save Question</a>
+	<div id="buttons">
+		<a href='/games/new' class='button' id='endGame'>End Game</a>
+		<a class="button" id='saveGame' onclick="saveQuestion();">Save Question</a>
+	</div>
 </div>
