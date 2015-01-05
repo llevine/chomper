@@ -123,5 +123,6 @@ span#cancel {
 #login #submit:hover {
     background: #ef5bf3;
     border: 3px solid #215a5c;
+    color: white;
 }
 
